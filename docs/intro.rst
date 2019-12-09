@@ -43,35 +43,23 @@ Lab Components
 The following table lists VLANS, IP Addresses and Credentials for all
 components:
 
-+------------------------+-------------------------+----------------+
-| Component              | VLAN/IP Address(es)     | Credentials    | 
-+========================+=========================+================+
-| jumpbox.f5lab.local    | - Management 10.1.1.10  | - user1/user1  | 
-|                        | - External   10.1.10.10 | - user2/user2  | 
-|                        | - Internal   10.1.20.10 |                |
-+------------------------+------------+------------+----------------+
-
-
-   
-    * - jumpbox.f5lab.local
-      - - **Management:** 10.1.1.10
-        - **Internal:** 10.1.10.10
-        - **External:** 10.1.20.10
-      - ``user1``/``user1``
-      - ``user2``/``user2``
-     * - BIG-IP1.f5lab.local
-      - - **Management:** 10.1.1.4
-        - **Internal:** 10.1.10.4
-        - **External:** 10.1.20.4
-      - ``admin``/``admin``
-      * - DC.f5lab.local
-      - - **Management:** 10.1.1.7
-        - **Internal:** 10.1.20.7
-      - ``f5lab\admin``/``admin``
-      * - iis.f5lab.local
-      - - **Management:** 10.1.1.6
-        - **Internal:** 10.1.20.6
-      - ``f5lab\admin``/``admin``
++------------------------+-------------------------+----------------------+
+| Component              | VLAN/IP Address(es)     | Credentials          | 
++========================+=========================+======================+
+| jumpbox.f5lab.local    | - Management 10.1.1.10  | - user1/user1        | 
+|                        | - External   10.1.10.10 | - user2/user2        | 
+|                        | - Internal   10.1.20.10 |                      |
++------------------------+------------+------------+----------------------+
+| BIG-IP1.f5lab.local    | - Management 10.1.1.4   | - admin/admin        | 
+|                        | - External   10.1.10.4  |                      | 
+|                        | - Internal   10.1.20.4  |                      |
++------------------------+------------+------------+----------------------+
+| dc.f5lab.local         | - Management 10.1.1.7   | - f5lab\admin/admin  | 
+|                        | - Internal   10.1.20.7  |                      | 
++------------------------+------------+------------+----------------------+
+| iis.f5lab.local        | - Management 10.1.1.6   | - f5lab\admin/admin  | 
+|                        | - Internal   10.1.20.6  |                      | 
++------------------------+------------+------------+----------------------+
       
 
 
