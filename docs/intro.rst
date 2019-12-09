@@ -51,10 +51,25 @@ components:
     * - **Component**
       - **VLAN/IP Address(es)**
       - **Credentials**
-    * - Sample Host
-      - - **Management:** 10.1.1.250
-        - **Internal:** 10.1.10.250
-        - **External:** 10.1.20.250
+    * - jumpbox.f5lab.local
+      - - **Management:** 10.1.1.10
+        - **Internal:** 10.1.10.10
+        - **External:** 10.1.20.10
+      - ``user1``/``user1``
+      - ``user2``/``user2``
+     * - BIG-IP1.f5lab.local
+      - - **Management:** 10.1.1.4
+        - **Internal:** 10.1.10.4
+        - **External:** 10.1.20.4
       - ``admin``/``admin``
+      * - DC.f5lab.local
+      - - **Management:** 10.1.1.7
+        - **Internal:** 10.1.20.7
+      - ``f5lab\admin``/``admin``
+      * - iis.f5lab.local
+      - - **Management:** 10.1.1.6
+        - **Internal:** 10.1.20.6, 10.1.20.16
+      - ``f5lab\admin``/``admin``
+      
 
 
