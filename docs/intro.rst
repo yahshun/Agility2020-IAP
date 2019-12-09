@@ -18,10 +18,10 @@ Lab Topology
 
 The following components have been included in your lab environment:
 
-- 2 x F5 BIG-IP VE (v12.1)
-- 1 x F5 iWorkflow VE (v2.1)
-- 1 x Linux LAMP Webserver (xubuntu 14.04)
-- 1 x Windows Jumphost
+- 1 x F5 BIG-IP VE (v15.1)
+- 1 x Windows Jumphost- Server 2016
+- 1 x Windows 2016 Server hosting AD, CA, OCSP & DNS
+- 1 x WindOWS 2016 Server hosting IIS
 
 Lab Components
 ^^^^^^^^^^^^^^
