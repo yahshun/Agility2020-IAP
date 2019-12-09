@@ -68,7 +68,7 @@ components:
       - ``f5lab\admin``/``admin``
       * - iis.f5lab.local
       - - **Management:** 10.1.1.6
-        - **Internal:** 10.1.20.6, 10.1.20.16
+        - **Internal:** 10.1.20.6
       - ``f5lab\admin``/``admin``
       
 
