@@ -28,6 +28,8 @@ Lab Topology
 
 .. TODO:: Complete lab topology
 
+.. image:: /_static/topology.png
+
 The following components have been included in your lab environment:
 
 - 1 x F5 BIG-IP VE (v15.1)
