@@ -5,12 +5,12 @@ Class - |classname|
 
 This class covers the following topics:
 
-- Downloading a |f5| |bip| |ve|
-- Installing a |bip| |ve| image on a hypervisor
-- Installing a |f5| |bip| Appliance
-- Powering on a |bip| Appliance
+- Real-time Posture Assessments
+- Per-Request Frameworks
+- Contextual Access
+- HTTP Connector
 
-Expected time to complete: **3 hours**
+Expected time to complete: **1 hour**
 
 .. toctree::
    :maxdepth: 1
