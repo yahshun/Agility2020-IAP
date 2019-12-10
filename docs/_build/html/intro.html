@@ -141,13 +141,15 @@ required.</p>
 </div>
 <div class="section" id="lab-topology">
 <h2>1.1. Lab Topology<a class="headerlink" href="#lab-topology" title="Permalink to this headline">¶</a></h2>
-<img alt="_images/topology.png" src="_images/topology.png" />
+<img alt="[image000.png]" src="[image000.png]" />
 <p>The following components have been included in your lab environment:</p>
 <ul class="simple">
-<li>1 x F5 BIG-IP VE (v15.1)</li>
+<li>2 x F5 BIG-IP VE (v15.1)</li>
 <li>1 x Windows Jumphost- Server 2016</li>
 <li>1 x Windows 2016 Server hosting AD, CA, OCSP &amp; DNS</li>
-<li>1 x WindOWS 2016 Server hosting IIS</li>
+<li>1 x Windows 2016 Server hosting IIS</li>
+<li>1 x Ubuntu 16.04 LTS</li>
+<li>1 x Centos 7</li>
 </ul>
 <div class="section" id="lab-components">
 <h3>1.1.1. Lab Components<a class="headerlink" href="#lab-components" title="Permalink to this headline">¶</a></h3>
@@ -155,10 +157,10 @@ required.</p>
 components:</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="34%" />
-<col width="17%" />
-<col width="17%" />
-<col width="31%" />
+<col width="32%" />
+<col width="16%" />
+<col width="16%" />
+<col width="35%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Component</th>
@@ -192,27 +194,59 @@ components:</p>
 </ul>
 </td>
 </tr>
-<tr class="row-even"><td>dc.f5lab.local</td>
+<tr class="row-even"><td>BIG-IP3.f5lab.local</td>
+<td colspan="2"><ul class="first last simple">
+<li>Management 10.1.1.5</li>
+<li>External   10.1.10.5</li>
+<li>Internal   10.1.20.5</li>
+</ul>
+</td>
+<td><ul class="first last simple">
+<li>admin/admin</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>dc.f5lab.local</td>
 <td colspan="2"><ul class="first last simple">
 <li>Management 10.1.1.7</li>
 <li>Internal   10.1.20.7</li>
 </ul>
 </td>
 <td><ul class="first last simple">
-<li>f5labadmin/admin</li>
+<li>administatori3NqCqRQ</li>
 </ul>
 </td>
 </tr>
-<tr class="row-odd"><td>iis.f5lab.local</td>
+<tr class="row-even"><td>iis.f5lab.local</td>
 <td colspan="2"><ul class="first last simple">
 <li>Management 10.1.1.6</li>
 <li>Internal   10.1.20.6</li>
 </ul>
 </td>
 <td><ul class="first last simple">
-<li>f5labadmin/admin</li>
+<li>administatori3NqCqRQ</li>
 </ul>
 </td>
+</tr>
+<tr class="row-odd"><td>web.f5lab.local</td>
+<td colspan="2"><ul class="first last simple">
+<li>Management 10.1.1.9</li>
+<li><dl class="first docutils">
+<dt>Internal   10.1.20.9</dt>
+<dd>10.1.20.19</dd>
+</dl>
+</li>
+</ul>
+</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>radius.f5lab.local</td>
+<td colspan="2"><ul class="first last simple">
+<li>Management 10.1.1.8</li>
+<li>Internal   10.1.20.8</li>
+</ul>
+</td>
+<td>&#160;</td>
 </tr>
 </tbody>
 </table>
