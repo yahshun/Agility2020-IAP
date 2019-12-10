@@ -1,4 +1,4 @@
-Module – Installing a BIG-IP Virtual Edition
+Module – Create an Identity Aware Proxy
 =============================================
 
 .. TODO:: Needs module description
