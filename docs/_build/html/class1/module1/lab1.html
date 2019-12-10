@@ -52,7 +52,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="2.1.2. Lab – Customization" href="lab10.html" />
-    <link rel="prev" title="2.1. Module – Installing a BIG-IP Virtual Edition" href="module1.html" />
+    <link rel="prev" title="2.1. Module – Create an Identity Aware Proxy" href="module1.html" />
   </head><body>
   <div id="clouddocs-header"></div>
 
@@ -76,8 +76,7 @@
         <span class="nav-sidebartoc">
             <ul>
 <li><a class="reference internal" href="#">2.1.1. Lab – Access Guided Configuration</a><ul>
-<li><a class="reference internal" href="#task-open-a-web-browser">2.1.1.1. Task – Open a Web Browser</a></li>
-<li><a class="reference internal" href="#task-download-the-image">2.1.1.2. Task – Download the Image</a></li>
+<li><a class="reference internal" href="#task-access-the-zero-trust-iap-guided-configuration">2.1.1.1. Task – Access the Zero Trust IAP guided configuration</a></li>
 </ul>
 </li>
 </ul>
@@ -88,9 +87,9 @@
         <span class="nav-sidebartoc">
             <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../intro.html">1. Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">1. Getting Started</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../class1.html">2. Class - Access 201: Zero Trust - Identity Aware Proxy</a><ul class="current">
-<li class="toctree-l2 current"><a class="reference internal" href="module1.html">2.1. Module – Installing a BIG-IP Virtual Edition</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="module1.html">2.1. Module – Create an Identity Aware Proxy</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../examples.html">3. Examples of Common Formatting</a></li>
@@ -119,61 +118,33 @@
     
   <div class="section" id="lab-access-guided-configuration">
 <h1>2.1.1. Lab – Access Guided Configuration<a class="headerlink" href="#lab-access-guided-configuration" title="Permalink to this headline">¶</a></h1>
-<div class="admonition-todo admonition" id="index-0">
-<p class="first admonition-title">Todo</p>
-<p class="last">Needs lab description</p>
-</div>
-<p>This lab will teach you how to download the BIG-IP Virtual Edition image to your system.</p>
-<div class="section" id="task-open-a-web-browser">
-<h2>2.1.1.1. Task – Open a Web Browser<a class="headerlink" href="#task-open-a-web-browser" title="Permalink to this headline">¶</a></h2>
-<div class="admonition-todo admonition" id="index-1">
-<p class="first admonition-title">Todo</p>
-<p class="last">Needs task description</p>
-</div>
-<p>In this task you will open a web browser and navigate to the F5 Networks Downloads
-site.</p>
+<p>The first step in deploying the IAP is accessing the guided configuration</p>
+<div class="section" id="task-access-the-zero-trust-iap-guided-configuration">
+<h2>2.1.1.1. Task – Access the Zero Trust IAP guided configuration<a class="headerlink" href="#task-access-the-zero-trust-iap-guided-configuration" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>From the webbrowser, click on the <strong>Access</strong> tab located on the lefthand side.</li>
+</ol>
+<p><img alt="image0" src="media/image000.png" /></p>
+<ol class="arabic simple" start="2">
+<li>Click <strong>Guided Configuration</strong></li>
+</ol>
+<p><img alt="image1" src="media/image001.png" /></p>
+<ol class="arabic simple" start="3">
+<li>Click <strong>Zero Trust</strong></li>
+</ol>
+<p><img alt="image2" src="media/image002.png" /></p>
+<ol class="arabic simple" start="4">
+<li>Click <strong>Identity Aware Proxy</strong></li>
+</ol>
+<p><img alt="image3" src="media/image003.png" /></p>
+<ol class="arabic simple" start="5">
+<li>Click <strong>Next</strong></li>
+</ol>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">An account is required to download software.  You can create one at
-<a class="reference external" href="https://login.f5.com/resource/registerEmail.jsp">https://login.f5.com/resource/registerEmail.jsp</a></p>
+<p class="last">BLAH BLAH Different topologies for IAP.</p>
 </div>
-<p>Follow these steps to complete this task:</p>
-<ol class="arabic">
-<li><p class="first">Open your web browser</p>
-</li>
-<li><p class="first">Navigate to <a class="reference external" href="https://downloads.f5.com">https://downloads.f5.com</a></p>
-</li>
-<li><p class="first">Login with your username and password.</p>
-</li>
-<li><p class="first">After logging in you should see the following window:</p>
-<p><img alt="image1" src="../../_images/image001.png" /></p>
-</li>
-</ol>
-</div>
-<div class="section" id="task-download-the-image">
-<h2>2.1.1.2. Task – Download the Image<a class="headerlink" href="#task-download-the-image" title="Permalink to this headline">¶</a></h2>
-<div class="admonition-todo admonition" id="index-2">
-<p class="first admonition-title">Todo</p>
-<p class="last">Needs task description</p>
-</div>
-<p>In this task we will download the F5 Networks BIG-IP Virtual Edition image to your system</p>
-<p>Follow these steps to complete this task:</p>
-<ol class="arabic">
-<li><p class="first">Click the ‘Find a Download’ button.</p>
-<img alt="../../_images/image002.png" src="../../_images/image002.png" />
-</li>
-<li><p class="first">Click the link that contains the BIG-IP TMOS software version you would like
-to download.</p>
-<div class="admonition important">
-<p class="first admonition-title">Important</p>
-<p class="last">Be sure to click a link that has “Virtual Edition” in the name</p>
-</div>
-</li>
-<li><p class="first">Find the image appropriate for your hypervisor</p>
-</li>
-<li><p class="first">Download the image and save it to you local system</p>
-</li>
-</ol>
+<p><img alt="image4" src="media/image004.png" /></p>
 </div>
 </div>
 
@@ -183,7 +154,7 @@ to download.</p>
      <div class="row next-prev-btn-row">
        <div class="col-lg-12">
        
-        <a href="module1.html" title="2.1. Module – Installing a BIG-IP Virtual Edition" accesskey="p" class="btn btn-primary pull-left"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Previous</a>
+        <a href="module1.html" title="2.1. Module – Create an Identity Aware Proxy" accesskey="p" class="btn btn-primary pull-left"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Previous</a>
        
        
           <a href="lab10.html" title="2.1.2. Lab – Customization" accesskey="n" class="btn btn-primary pull-right">Next <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
