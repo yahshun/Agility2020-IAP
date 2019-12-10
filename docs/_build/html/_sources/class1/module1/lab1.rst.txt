@@ -1,4 +1,4 @@
-Lab – Download the |bip| |ve| Image
+Lab – Access Guided Configuration
 -----------------------------------
 
 .. TODO:: Needs lab description

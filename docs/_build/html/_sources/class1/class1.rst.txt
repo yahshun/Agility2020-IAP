@@ -3,7 +3,7 @@ Class - |classname|
 
 .. TODO:: Need class description
 
-This class covers the following topics:
+This class covers the following topics related to Identity Aware Proxy:
 
 - Real-time Posture Assessments
 - Per-Request Frameworks

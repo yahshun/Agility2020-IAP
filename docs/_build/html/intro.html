@@ -125,14 +125,14 @@
 lab and access your jump host.</p>
 <p>To access your dedicated student lab environment, you will require a web browser and Remote Desktop Protocol (RDP) client software. The web browser will be used to access the Lab Training Portal. The RDP client will be used to connect to the Jump Host, where you will be able to access the BIG-IP management interfaces (HTTPS, SSH).</p>
 <p>1. Establish an RDP connection to your Jump Host and login with the following credentials:
-User: user1
-Password: user1</p>
+User: <strong>user1</strong>
+Password: <strong>user1</strong></p>
 <ol class="arabic simple" start="2">
 <li>Access the BIG-IP GUI <a class="reference external" href="https://10.1.1.4">https://10.1.1.4</a> (you can double-click on the BIG-IP1 bookmark from Chrome).</li>
 </ol>
 <p>3. Login into the BIG-IP Configuration Utility with the following credentials:
-User: admin
-Password: admin</p>
+User: <strong>admin</strong>
+Password: <strong>admin</strong></p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">All work for this lab will be performed exclusively from the Windows
@@ -141,7 +141,9 @@ required.</p>
 </div>
 <div class="section" id="lab-topology">
 <h2>1.1. Lab Topology<a class="headerlink" href="#lab-topology" title="Permalink to this headline">¶</a></h2>
-<img alt="[image000.png]" src="[image000.png]" />
+<blockquote>
+<div><img alt="_images/image003.png" src="_images/image003.png" />
+</div></blockquote>
 <p>The following components have been included in your lab environment:</p>
 <ul class="simple">
 <li>2 x F5 BIG-IP VE (v15.1)</li>
@@ -158,19 +160,18 @@ components:</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="32%" />
-<col width="16%" />
-<col width="16%" />
+<col width="33%" />
 <col width="35%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Component</th>
-<th class="head" colspan="2">VLAN/IP Address(es)</th>
+<th class="head">VLAN/IP Address(es)</th>
 <th class="head">Credentials</th>
 </tr>
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>jumpbox.f5lab.local</td>
-<td colspan="2"><ul class="first last simple">
+<td><ul class="first last simple">
 <li>Management 10.1.1.10</li>
 <li>External   10.1.10.10</li>
 <li>Internal   10.1.20.10</li>
@@ -183,7 +184,7 @@ components:</p>
 </td>
 </tr>
 <tr class="row-odd"><td>BIG-IP1.f5lab.local</td>
-<td colspan="2"><ul class="first last simple">
+<td><ul class="first last simple">
 <li>Management 10.1.1.4</li>
 <li>External   10.1.10.4</li>
 <li>Internal   10.1.20.4</li>
@@ -195,7 +196,7 @@ components:</p>
 </td>
 </tr>
 <tr class="row-even"><td>BIG-IP3.f5lab.local</td>
-<td colspan="2"><ul class="first last simple">
+<td><ul class="first last simple">
 <li>Management 10.1.1.5</li>
 <li>External   10.1.10.5</li>
 <li>Internal   10.1.20.5</li>
@@ -207,41 +208,38 @@ components:</p>
 </td>
 </tr>
 <tr class="row-odd"><td>dc.f5lab.local</td>
-<td colspan="2"><ul class="first last simple">
+<td><ul class="first last simple">
 <li>Management 10.1.1.7</li>
 <li>Internal   10.1.20.7</li>
 </ul>
 </td>
 <td><ul class="first last simple">
-<li>administatori3NqCqRQ</li>
+<li>administator/i3NqCqRQ</li>
 </ul>
 </td>
 </tr>
 <tr class="row-even"><td>iis.f5lab.local</td>
-<td colspan="2"><ul class="first last simple">
+<td><ul class="first last simple">
 <li>Management 10.1.1.6</li>
 <li>Internal   10.1.20.6</li>
 </ul>
 </td>
 <td><ul class="first last simple">
-<li>administatori3NqCqRQ</li>
+<li>administator/i3NqCqRQ</li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td>web.f5lab.local</td>
-<td colspan="2"><ul class="first last simple">
+<td><ul class="first last simple">
 <li>Management 10.1.1.9</li>
-<li><dl class="first docutils">
-<dt>Internal   10.1.20.9</dt>
-<dd>10.1.20.19</dd>
-</dl>
-</li>
+<li>Internal   10.1.20.9</li>
+<li>Internal   10.1.20.19</li>
 </ul>
 </td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>radius.f5lab.local</td>
-<td colspan="2"><ul class="first last simple">
+<td><ul class="first last simple">
 <li>Management 10.1.1.8</li>
 <li>Internal   10.1.20.8</li>
 </ul>

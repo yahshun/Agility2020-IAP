@@ -1,4 +1,4 @@
-Lab – Install a |bip| |ve| image on a Hypervisor
+Lab – Device Posture 
 ------------------------------------------------
 
 .. TODO:: Needs lab description
