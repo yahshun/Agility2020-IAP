@@ -25,7 +25,7 @@ Lab Topology
 ~~~~~~~~~~~~
 
 
-  .. image:: /_static/image003.png
+  .. image:: /media/image000.png
 
 The following components have been included in your lab environment:
 
