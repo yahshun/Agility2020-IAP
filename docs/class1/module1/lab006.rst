@@ -1,39 +1,36 @@
 Lab – SSO & HTTP Header
 ------------------------------------------------
 
-.. TODO:: Needs lab description
+In this section you will configure two SSO methods.  You will first configure basic authentication SSO and then header authentication
 
-In the previous lab we learned how to download the |bip| |ve| image.  Now, we
-can install the image onto a hypervisor.
-
-Task – Upload the image to your Hypervisor
+Task – Create a HTTP basic SSO object
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. TODO:: Needs task description
+.
 
-In this task you will upload the image to your hypervisor.
+#. **Check** Enable Single Sign-On
 
-Follow these steps to complete this task:
+|image18|
 
-.. rst-class:: task-stepsx
+#. Enter the name BASIC_SSO
+#. Verify **HTTP Basic** is selected
+#. Select **Create New** from the SSO Configuration Object dropdown box
 
-#. Open your hypervisor management console
-#. Figure out how to upload the image
+|image19|
 
-   .. ERROR:: These are bad instructions...
+#. Verify the Username Source is **session.sso.token.last.username**
+#. Verify the Password Source is **session.sso.token.last.password**
+#. **Click** Save
 
-#. Great!  You're done
+|image20|
 
-Task – Start a |bip| |ve| Instance
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. TODO:: Needs task description
+#. Verify the **BASIC_SSO** object was created
+#. *click** Save & Next
 
-In this task we will start and instance of |bip| using the image uploaded in
-the previous task.
+|image21|
 
-Follow these steps to complete this task:
-
-#. Open your hypervisor management console
-#. Click the |bip| image
-#. Click the 'Start' button (or it's equivalent)
+.. |image18| image:: /media/image018.png
+.. |image19| image:: /media/image019.png
+.. |image20| image:: /media/image020.png
+.. |image21| image:: /media/image021.png
