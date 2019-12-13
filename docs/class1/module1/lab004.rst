@@ -1,30 +1,30 @@
 Lab – User Identity
 ------------------------------------------------
 
-.. TODO:: Needs lab description
+In this section you will configure two locations for User Identities.  You will first configure Active Directory and secondly you will configure certificate authentication using OCSP.
 
-In the previous lab we learned how to download the |bip| |ve| image.  Now, we
-can install the image onto a hypervisor.
-
-Task – Upload the image to your Hypervisor
+Task – Configure Active Directory AAA
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. TODO:: Needs task description
+#. Enter "AD" for the name
+#. Ensure the Authentication Type is **AAA**
+#. Ensure the Choose Authentication Server Type is set to **Active Directory**
+#. Select **Create New** from the Choose Authentication Server dropdown box
 
-In this task you will upload the image to your hypervisor.
+|image11|
 
-Follow these steps to complete this task:
+#.Enter **f5lab.local** for the Domain Name
+#. Enter **AD_POOL** for the Domain Controller Pool Name
+#. Enter **10.1.20.7** for the Domain Controller IP address
+#. Enter **dc.f5lab.local** for the Domain Controller Hostname
+#. Enter **admin** for the Admin Name
+#. Enter **admin** for the Admin Password
+#. Click Save
 
-.. rst-class:: task-stepsx
+|image12|
 
-#. Open your hypervisor management console
-#. Figure out how to upload the image
 
-   .. ERROR:: These are bad instructions...
-
-#. Great!  You're done
-
-Task – Start a |bip| |ve| Instance
+Task – Configure Certificate Authentication
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. TODO:: Needs task description
@@ -37,3 +37,8 @@ Follow these steps to complete this task:
 #. Open your hypervisor management console
 #. Click the |bip| image
 #. Click the 'Start' button (or it's equivalent)
+
+
+
+.. |image11| image:: /media/image011.png
+.. |image12| image:: /media/image012.png
