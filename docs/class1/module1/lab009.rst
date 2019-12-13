@@ -1,28 +1,33 @@
 Lab – Contextual Access
 ------------------------------------------------
 
-.. TODO:: Needs lab description
+In this section you will define contextual access for the two previously created applications.  Context access is where all of the previously created objects are put together to provide fine-grain access control.
 
-In the previous lab we learned how to download the |bip| |ve| image.  Now, we
-can install the image onto a hypervisor.
+Task – Create Contextual Access for basic.acme.com
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Task – Upload the image to your Hypervisor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. TODO:: Needs task description
+#. Enter **basic.acme.com** for the contextual access name
+#. Select **basic.acme.com** from the Resource dropdown box
+#. Select **FW_CHECK** from the Device Posture dropdown box
+#. Select **AD** from the Primary Authentication dropdown box
+#. Select **BASIC_SSO** from the Single Sign-On dropdown box
+#. **Check** Enable Additional Checks
 
-In this task you will upload the image to your hypervisor.
+|image23|
 
-Follow these steps to complete this task:
+#. Enter **POSTURE_AND_RADIUS** for the name of the trigger
+#. **Check** Client Posture Information
+#. **Select** Signed
+#. **Click** Save
 
-.. rst-class:: task-stepsx
+|image24|
 
-#. Open your hypervisor management console
-#. Figure out how to upload the image
+#. **Click** Save
 
-   .. ERROR:: These are bad instructions...
+|image25|
 
-#. Great!  You're done
+
 
 Task – Start a |bip| |ve| Instance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,3 +42,10 @@ Follow these steps to complete this task:
 #. Open your hypervisor management console
 #. Click the |bip| image
 #. Click the 'Start' button (or it's equivalent)
+
+
+.. |image23| image:: /media/image023.png
+.. |image24| image:: /media/image024.png
+.. |image25| image:: /media/image025.png
+
+

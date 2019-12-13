@@ -1,30 +1,24 @@
 Lab – Applications
 ------------------------------------------------
 
-.. TODO:: Needs lab description
+In this section you will define two applications
 
-In the previous lab we learned how to download the |bip| |ve| image.  Now, we
-can install the image onto a hypervisor.
-
-Task – Upload the image to your Hypervisor
+Task – Create basic.acme.com application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. TODO:: Needs task description
 
-In this task you will upload the image to your hypervisor.
 
-Follow these steps to complete this task:
+#. Enter the **basic.acme.com** for the application name
+#. Enter the **basic.acme.com** for the FQDN
 
-.. rst-class:: task-stepsx
+#. Enter the IP address **10.1.20.6** for the pool member
+#. **Click** Save 
 
-#. Open your hypervisor management console
-#. Figure out how to upload the image
+|image22|
 
-   .. ERROR:: These are bad instructions...
 
-#. Great!  You're done
 
-Task – Start a |bip| |ve| Instance
+Task – Create header.acme.com application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. TODO:: Needs task description
@@ -37,3 +31,6 @@ Follow these steps to complete this task:
 #. Open your hypervisor management console
 #. Click the |bip| image
 #. Click the 'Start' button (or it's equivalent)
+
+
+.. |image22| image:: /media/image022.png
