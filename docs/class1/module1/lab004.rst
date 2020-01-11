@@ -1,44 +1,24 @@
 Lab – User Identity
 ------------------------------------------------
 
-In this section you will configure two locations for User Identities.  You will first configure Active Directory and secondly you will configure certificate authentication using OCSP.
+In this section you will configure a single User Identity using Active Directory.  
 
 Task – Configure Active Directory AAA
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Enter "AD" for the name
-#. Ensure the Authentication Type is **AAA**
-#. Ensure the Choose Authentication Server Type is set to **Active Directory**
-#. Select **Create New** from the Choose Authentication Server dropdown box
+1. Enter "ad" for the name
+2. Ensure the Authentication Type is **AAA**
+3. Ensure the Choose Authentication Server Type is set to **Active Directory**
+4. Select **prebuilt-ad-servers** from the Choose Authentication Server dropdown box
+5. Check **Active Directory Query Properties**
+6. Select the **memberOf** in the Required Attributes box 
+7. Click **Save**
+8. Click **Save & Next**
 
 |image11|
 
-#.Enter **f5lab.local** for the Domain Name
-#. Enter **AD_POOL** for the Domain Controller Pool Name
-#. Enter **10.1.20.7** for the Domain Controller IP address
-#. Enter **dc.f5lab.local** for the Domain Controller Hostname
-#. Enter **admin** for the Admin Name
-#. Enter **admin** for the Admin Password
-#. Click Save
 
-|image12|
-
-
-Task – Configure Certificate Authentication
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. TODO:: Needs task description
-
-In this task we will start and instance of |bip| using the image uploaded in
-the previous task.
-
-Follow these steps to complete this task:
-
-#. Open your hypervisor management console
-#. Click the |bip| image
-#. Click the 'Start' button (or it's equivalent)
+.. |image11| image:: /_static/class1/module1/image011.png
 
 
 
-.. |image11| image:: /media/image011.png
-.. |image12| image:: /media/image012.png

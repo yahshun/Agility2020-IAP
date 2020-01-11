@@ -1,0 +1,61 @@
+Lab – Testing
+------------------------------------------------
+
+In this section you will using user1's credentials to default website header-iap.acme.com.  However, when you attempt to access the admin page you will be prompted for the  certificate based authentication.  After a successful login you will close your browser and login to default website using user2's creditials.  When you attempt to login to the admin site due to the group check you will be denied.
+
+Task – Login to header-iap.acme.com using user1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. From the jump-box, open a new browser tab
+2. Access the site https://header-iap.acme.com
+3. At the logon page enter the Username: **user1** and password: **user1**
+4. Click **Logon**
+
+|image30|
+
+5. Notice the custom header **UserID** has a value of user1
+
+|image31|
+
+6. Access the admin portion of the website https://header-iap.acme.com/admim.php
+
+|image32|
+
+7. Select the certificate **user1**
+8. Click **OK**
+
+|image33|
+
+9. You should be successfully logged into the admin portion of the site.
+10. Close the browser completely.
+
+Task – Login to header-iap.acme.com using user2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. From the jumpbox, open the browser 
+2. Access the site https://header-iap.acme.com
+3. At the logon page enter the Username: **user2** and password: **user2**
+4. Click **Logon**
+
+|image34|
+
+5. Notice the custom header **UserID** has a value of user2
+
+|image35|
+
+6. Access the admin portion of the website https://header-iap.acme.com/admim.php
+7. You receive a Access Denied page due to not having the correct group membership
+
+|image36|
+
+
+
+.. |image30| image:: /_static/class1/module2/image030.png
+.. |image31| image:: /_static/class1/module2/image031.png
+.. |image32| image:: /_static/class1/module2/image032.png
+.. |image33| image:: /_static/class1/module2/image033.png
+.. |image34| image:: /_static/class1/module2/image034.png
+.. |image35| image:: /_static/class1/module2/image035.png
+.. |image36| image:: /_static/class1/module2/image036.png
+
+

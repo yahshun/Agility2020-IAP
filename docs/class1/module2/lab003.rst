@@ -1,0 +1,33 @@
+Lab – SSO & HTTP Header
+------------------------------------------------
+
+In this section, you will create a customer header value to pass to the web server. 
+
+Task – Create Custom Header
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Click **SSO & HTTP Header from the Ribbon.
+
+|image7|
+
+2. Click **Add* to create a new header object.
+
+|image8|
+
+3. Enter Name **header_sso**
+4. Enter Header Name **UserID**
+5. Click **Save**
+
+|image9|
+
+6. Ensure the **header_sso** object was created
+
+|image10|
+
+
+.. |image7| image:: /_static/class1/module2/image007.png
+.. |image8| image:: /_static/class1/module2/image008.png
+.. |image9| image:: /_static/class1/module2/image009.png
+.. |image10| image:: /_static/class1/module2/image010.png
+
+

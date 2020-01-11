@@ -6,14 +6,11 @@ In this section, you will configure the IAP to perform posture assessment from c
 Task – Configure name of IAP Policy and enable Posture Checks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
-
 #. Define the configuration name **IAP_DEMO**
 
 #. **Check** Enable F5 Client Posture Check
 
-#. select **ca.f5lab.local** from the CA Trust Certificate dropdown list
+#. select **ca.f5lab.local.crt** from the CA Trust Certificate dropdown list
 
 #. Select **add** to create a posture assessment group
 
@@ -26,7 +23,7 @@ Task – Define a firewall Posture Assessment
 #. Define the Posture Group Name **FW_CHECK**
 #. **Check** the enable a Firewall check box
 #. **Check** the enable a Domain Managed Devices box
-#. enter the Domain Name **f5lab.local** 
+#. Enter the Domain Name **f5lab.local** 
 #. Click **Done**
 
 |image6|
@@ -36,12 +33,12 @@ Task – Verify the posture assessment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-#. posture settings should be populated **FW_CHECK** should be populated
+#. The Posture Settings box should contain **FW_CHECK
 #. **Click** Save & Next
 
 |image7|
 
 
-.. |image5| image:: /media/image005.png
-.. |image6| image:: /media/image006.png
-.. |image7| image:: /media/image007.png
+.. |image5| image:: /_static/class1/module1/image005.png
+.. |image6| image:: /_static/class1/module1/image006.png
+.. |image7| image:: /_static/class1/module1/image007.png

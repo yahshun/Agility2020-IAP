@@ -1,0 +1,37 @@
+Lab – Testing
+------------------------------------------------
+
+In this section you will configure two SSO methods.  You will first configure basic authentication SSO and then header authentication
+
+Task – Create a HTTP basic SSO object
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+1. **Check** Enable Single Sign-On
+
+|image18|
+
+2. Enter the name basic_sso
+3. Verify **HTTP Basic** is selected
+4. Select **Create New** from the SSO Configuration Object dropdown box
+
+|image19|
+
+5. Verify the Username Source is **session.sso.token.last.username**
+6. Verify the Password Source is **session.sso.token.last.password**
+7. **Click** Save
+
+|image20|
+
+
+8. Verify the **basic_sso** object was created
+9. *click** Save & Next
+
+|image21|
+
+.. |image18| image:: /_static/class1/module1/image018.png
+.. |image19| image:: /_static/class1/module1/image019.png
+.. |image20| image:: /_static/class1/module1/image020.png
+.. |image21| image:: /_static/class1/module1/image021.png
+

@@ -1,39 +1,13 @@
 Lab – Application Groups
 ------------------------------------------------
 
-.. TODO:: Needs lab description
+Application Groups will be covers in a later section of the lab.
 
-In the previous lab we learned how to download the |bip| |ve| image.  Now, we
-can install the image onto a hypervisor.
-
-Task – Upload the image to your Hypervisor
+Task – Skip Application Group Section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. TODO:: Needs task description
+1. Click **Save & Next**
 
-In this task you will upload the image to your hypervisor.
+|image28|
 
-Follow these steps to complete this task:
-
-.. rst-class:: task-stepsx
-
-#. Open your hypervisor management console
-#. Figure out how to upload the image
-
-   .. ERROR:: These are bad instructions...
-
-#. Great!  You're done
-
-Task – Start a |bip| |ve| Instance
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. TODO:: Needs task description
-
-In this task we will start and instance of |bip| using the image uploaded in
-the previous task.
-
-Follow these steps to complete this task:
-
-#. Open your hypervisor management console
-#. Click the |bip| image
-#. Click the 'Start' button (or it's equivalent)
+.. |image28| image:: /_static/class1/module1/image028.png
