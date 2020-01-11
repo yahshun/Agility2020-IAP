@@ -1,44 +1,66 @@
-Lab – User Identity
-------------------------------------------------
+Lab – ADD HTTP Connector to the IAP Policy
+-------------------------------------------
 
-In this section, you will configure the IAP to perform posture assessment from client devices.  
+Now that HTTP Connector Request has been defined you will add it to basic-iap.acme.com application and test
 
-Task – Configure name of IAP Policy and enable Posture Checks
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Task – Add the HTTP Connector Request
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Define the configuration name **IAP_DEMO**
+1. From the web browser, click on the **Access** tab located on the lefthand side.
 
-#. **Check** Enable F5 Client Posture Check
+|image12|
 
-#. select **ca.f5lab.local.crt** from the CA Trust Certificate dropdown list
+2. Click **Guided Configuration**
 
-#. Select **add** to create a posture assessment group
+|image13|
 
-|image5|
+3. Click **IAP_DEMO** 
 
-Task – Define a firewall Posture Assessment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|image14|
+
+4. Click on **Contextual Access**
+|image15|
+
+5. Click on **basic-iap.acme.com**
+
+|image16|
+
+6. Click **Add** Trigger Rule
+
+|image17|
+
+7. Enter Name **get-user-status**
+8. **Check** HTTP Connector Request
+9. Select **get-aduser-attributes** from the HTTP Connector Request dropdown
+10. Enter Value **expr {[mcget {subsession.http_connector.body.userAccountControl}] == 66048 }**
+11. Select **Step Up** from the Match Action dropdown
+12. Select **Custom Radius based Authentication**
+13. Click **Save**
+
+|image18|
+
+14. Select **Reject** from the Match Action dropdown for the Default Fallback branch
+15. Click **Save**
+
+|image19|
+
+16.Click **Deploy**
+
+|image20|
 
 
-#. Define the Posture Group Name **FW_CHECK**
-#. **Check** the enable a Firewall check box
-#. **Check** the enable a Domain Managed Devices box
-#. Enter the Domain Name **f5lab.local** 
-#. Click **Done**
-
-|image6|
 
 
-Task – Verify the posture assessment 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. |image12| image:: /_static/class1/module3/image012.png
+.. |image13| image:: /_static/class1/module3/image013.png
+.. |image14| image:: /_static/class1/module3/image014.png
+.. |image15| image:: /_static/class1/module3/image015.png
+.. |image16| image:: /_static/class1/module3/image016.png
+.. |image17| image:: /_static/class1/module3/image017.png
+.. |image18| image:: /_static/class1/module3/image018.png
+.. |image19| image:: /_static/class1/module3/image019.png
+.. |image20| image:: /_static/class1/module3/image020.png
 
 
-#. The Posture Settings box should contain **FW_CHECK
-#. **Click** Save & Next
 
-|image7|
-
-
-.. |image5| image:: /_static/class1/module1/image005.png
-.. |image6| image:: /_static/class1/module1/image006.png
-.. |image7| image:: /_static/class1/module1/image007.png

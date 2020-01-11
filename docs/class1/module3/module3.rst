@@ -1,7 +1,7 @@
 Module – HTTP Connector
 ======================================================
 
-Guided Configuration supports more than a single application per Identity Aware Proxy Deployment.  In this module you will learn how to reenter AGC IAP to onboard new authentication methods, SSO methods, applications to and existing Identity Aware Proxy.
+HTTP Connector is a new feature released in 15.1 allow HTTP requests to set directly from the the per-request policy.  This request could be to an API to request additional information in order to make an access control decision or to send information to update an external resource.  
 
 .. toctree::
    :maxdepth: 1

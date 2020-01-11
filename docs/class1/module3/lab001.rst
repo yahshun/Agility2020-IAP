@@ -1,26 +1,101 @@
-Lab – Access Guided Configuration
------------------------------------
+Lab – Create the HTTP Connector Request
+---------------------------------------
 
-The first step in onboarding a new application to the IAP is accessing the guided configuration
+The HTTP Connector is made up of two parts.  The first part is called the HTTP Connector Transport and it defines settings related to SSL, DNS, timeouts, and payload sizes.  The second part is the HTTP Connector Request that contains specific details such as HTTP Method, URL, message body, and how to handle the HTTP responses  
 
-Task – Access the Zero Trust IAP guided configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Task – Create a DNS Resolver
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. From the web browser, click on the **Access** tab located on the lefthand side.
+1. Navigate to Network >> DNS Resolvers >> DNS Resolver List. Click the  **+** Symbol
 
 |image0|
 
-2. Click **Guided Configuration**
+2. Enter Name **internal_resolver**
 
 |image1|
 
-3. Click **IAP_DEMO** 
+3. Click **internal_resolver** 
 
 |image2|
 
+4. Click **Forward Zones**
+
+|image3|
+
+5. Click **Add**
+
+|image4|
+
+6. Enter Name **.**
+7. Enter Address **10.1.20.7**
+8. Click **Add**
+9. Click **Finished**
+
+|image5|
 
 
-.. |image0| image:: /_static/class1/module2/image000.png
-.. |image1| image:: /_static/class1/module2/image001.png
-.. |image2| image:: /_static/class1/module2/image002.png
+Task – Create a ServerSide SSL Profile
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Navigate to Local Traffic >> Profiles >> SSL >> Server. Click the  **+** Symbol
+
+|image6|
+
+2. Enter Name **adapi.f5lab.local**
+3. **Check** Custom box to the right of Certificate and Key
+4. Select apiadmin.crt from the Certificate dropdown
+5. Select apiadmin.key from the key dropdown
+6. Click **Finished** at the Bottom of the page
+
+|image7|
+
+
+
+
+Task – Create a HTTP Connector Transport
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Navigate to Access >> Authentication >> HTTP Connector >> HTTP Connector Transport  Click the  **+** Symbol
+
+|image8|
+
+2. Enter Name **demo-http-connector**
+3. Select **internal_resolver** from the DNS Resolver dropdown
+4. Select **adapi.f5lab.local** from the Server SSL Profile
+5. Click **Save**
+
+|image9|
+
+
+Task – Create a HTTP Connector Request
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Navigate to Access >> Authentication >> HTTP Connector >> HTTP Connector Request.  Click the  **+** Symbol
+
+|image10|
+
+2. Enter name **get-aduser-attributes**
+3. Select **demo-http-connector** from the dropdown 
+4. Enter URL **https://adapi.f5lab.local:8443/aduser/get?useridentity=%{overflow.username}**
+5. Enter **GET** for the Method
+6. Select **Parse** for the Response Action
+7. Click **Save** 
+
+|image11|
+
+
+
+
+.. |image0| image:: /_static/class1/module3/image000.png
+.. |image1| image:: /_static/class1/module3/image001.png
+.. |image2| image:: /_static/class1/module3/image002.png
+.. |image3| image:: /_static/class1/module3/image003.png
+.. |image4| image:: /_static/class1/module3/image004.png
+.. |image5| image:: /_static/class1/module3/image005.png
+.. |image6| image:: /_static/class1/module3/image006.png
+.. |image7| image:: /_static/class1/module3/image007.png
+.. |image8| image:: /_static/class1/module3/image008.png
+.. |image9| image:: /_static/class1/module3/image009.png
+.. |image10| image:: /_static/class1/module3/image010.png
+.. |image11| image:: /_static/class1/module3/image011.png
 

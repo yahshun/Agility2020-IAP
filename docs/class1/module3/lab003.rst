@@ -1,33 +1,97 @@
-Lab – SSO & HTTP Header
+Lab – Testing
 ------------------------------------------------
 
-In this section, you will define the virtual server IP address its SSL profile settings 
+In this section, you will test how HTTP connector can influence policy changes dynamically as conditions change in the network 
 
-Task – Create a virtual server
+Task – Access basic-iap.acme.com
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+1. From the jump box open Chrome and open Developer Tools 
+
+|image21|
+
+2. Ensure **Disable Cache** is checked
+
+|image22|
+
+3. Access the site https://basic.iap.acme.com
+4. Login with the username:**user2 and password:**user2**
+
+|image23|
+
+5. Enter the PIN**123456** for RADIUS authentication
+
+|image24|
+
+6. You will be presented the website
+
+|image25|
+
+7. From a seperate access the BIG-IP management interface https://10.1.1.4
+
+8. Navigate to Access >> Overview >> **Active Sessions**
+
+|image26|
+
+9. You will see an active session for user2.
+10. Expand the session to see all the submissions by clicking the **+** symbol to the left of the session ID.  You session ID will not match the one displayed below
+
+|image27|
+
+11. Click **View** to the right of the HTTP Connector request **get-user-data** to see the subsession variables.
+
+|image28|
+
+12.  You will notice that HTTP Connector received multiple values back in the response and each JSON key is parsed to its own subsession variable. 
+13.  userAccountControl is currently set to 66048.  Which mean the account is enabled and the password never expires.
+14. Click **Cancel**
+
+|image29|
+
+15. Expand the session to see all the submissions by clicking the **+** symbol to the left of the session ID.  You session ID will not match the one displayed below
+|image27|
+
+16. If the HTTP Connector subsession still exists select that specific subsession only and kill the selected Subsession.
+
+NOTE we are doing to speed up the process and bypass the typical timers associated with HTTP Connector.  This will enable us to see HTTP Connector trigger immediately on the next HTTP request sent from the jump box.
+
+|image30|
+
+17. Locate Disable User 2 powershell script shortcut located on the desktop.  
+
+|image31|
+
+18. Click the Disable User 2 powershell script.  A powershell window will appear disabling the User2 account is Disabled.
+|
+image32|
+
+18. Return to your existing https://basic-iap.acme.com session.
+19. Click on one of the links for the website.  You will receive a Deny Page.
 
 
-1. **Click** Show Advanced Setting located in the top right corner to expose the Server-Side SSL profile settings
-2. Enter the IP address **10.1.10.100**
-|image8|
+|image33|
+
+20.  If you return to the subsession variables screen in BIG-IP you will see the session returned is 66050.
+
+|image34|
 
 
-3. **Click** the Create New radio button under Client SSL Profile
-
-4. Select **acme.com-wildcard.crt** from the Client SSL certificate dropdown box
-5. Select **acme.com-wildcard.key** from the Associated Private Key dropdown box
-6. Select **ca.f5lab.local.crt** from the Trusted Certificate Authorities for Client Authentication drop down box
-
-|image9|
-
-7. Select **serverssl** from the Server SSL Profile options
-8. **Click** Save & Next
-
-|image10|
 
 
-.. |image8| image:: /_static/class1/module1/image008.png
-.. |image9| image:: /_static/class1/module1/image009.png
-.. |image10| image:: /_static/class1/module1/image010.png
+
+.. |image21| image:: /_static/class1/module3/image021.png
+.. |image22| image:: /_static/class1/module3/image022.png
+.. |image23| image:: /_static/class1/module3/image023.png
+.. |image24| image:: /_static/class1/module3/image024.png
+.. |image25| image:: /_static/class1/module3/image025.png
+.. |image26| image:: /_static/class1/module3/image026.png
+.. |image27| image:: /_static/class1/module3/image027.png
+.. |image28| image:: /_static/class1/module3/image028.png
+.. |image29| image:: /_static/class1/module3/image029.png
+.. |image30| image:: /_static/class1/module3/image030.png
+.. |image31| image:: /_static/class1/module3/image031.png
+.. |image32| image:: /_static/class1/module3/image032.png
+.. |image33| image:: /_static/class1/module3/image033.png
+.. |image34| image:: /_static/class1/module3/image034.png
+
 
