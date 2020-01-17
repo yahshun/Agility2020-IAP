@@ -22,7 +22,7 @@ Task – Configure Certificate Authentication with OCSP
 
 |image5|
 
-8. Ensure the ocsp object was created
+8. Ensure the **ocsp** object was created
 
 |image6|
 

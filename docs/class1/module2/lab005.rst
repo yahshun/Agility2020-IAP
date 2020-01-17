@@ -14,7 +14,7 @@ Task – Create adauth_header Group
 
 |image16|
 
-3. Enter Name **adauth_header-iap.acme.com
+3. Enter Name **adauth_header-iap.acme.com**
 4. Select **/**
 5. Click **Save** 
  
@@ -25,9 +25,9 @@ Task – Create ocspauth_header Group
 
 6. Click **Add** to create a second application group
 |
-image18|
+|image18|
 
-7. Enter Name **ocspauth_header-iap.acme.com
+7. Enter Name **ocspauth_header-iap.acme.com**
 8. Select **/admin.php**
 9. Click **Save** 
 

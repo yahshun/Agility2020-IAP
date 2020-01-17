@@ -4,37 +4,37 @@ Lab – Device Posture
 In this section, you will configure the IAP to perform posture assessment from client devices.  
 
 Task – Configure name of IAP Policy and enable Posture Checks
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Define the configuration name **IAP_DEMO**
+1. Define the configuration name **IAP_DEMO**
 
-#. **Check** Enable F5 Client Posture Check
+2. Check **Enable F5 Client Posture Check**
 
-#. select **ca.f5lab.local.crt** from the CA Trust Certificate dropdown list
+3. select **ca.f5lab.local.crt** from the CA Trust Certificate dropdown list
 
-#. Select **add** to create a posture assessment group
+4. Select **add** to create a posture assessment group
 
 |image5|
 
 Task – Define a firewall Posture Assessment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-#. Define the Posture Group Name **FW_CHECK**
-#. **Check** the enable a Firewall check box
-#. **Check** the enable a Domain Managed Devices box
-#. Enter the Domain Name **f5lab.local** 
-#. Click **Done**
+5. Define the Posture Group Name **FW_CHECK**
+6. Check the enable a **Firewall** box
+7. Check the enable a **Domain Managed Devices** box
+8. Enter the Domain Name **f5lab.local** 
+9. Click **Done**
 
 |image6|
 
 
 Task – Verify the posture assessment 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-#. The Posture Settings box should contain **FW_CHECK
-#. **Click** Save & Next
+10. The Posture Settings box should contain **FW_CHECK**
+11. Click **Save & Next**
 
 |image7|
 

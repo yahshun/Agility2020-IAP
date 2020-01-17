@@ -1,18 +1,17 @@
 Lab – SSO & HTTP Header
 ------------------------------------------------
 
-In this section you will configure two SSO methods.  You will first configure basic authentication SSO and then header authentication
+In this section you will configure HTTP Basic SSO.
 
 Task – Create a HTTP basic SSO object
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-
-1. **Check** Enable Single Sign-On
+1. Check **Enable Single Sign-On(Optional)**
 
 |image18|
 
-2. Enter the name basic_sso
+2. Enter the name **basic_sso**
 3. Verify **HTTP Basic** is selected
 4. Select **Create New** from the SSO Configuration Object dropdown box
 
@@ -20,13 +19,13 @@ Task – Create a HTTP basic SSO object
 
 5. Verify the Username Source is **session.sso.token.last.username**
 6. Verify the Password Source is **session.sso.token.last.password**
-7. **Click** Save
+7. Click **Save**
 
 |image20|
 
 
 8. Verify the **basic_sso** object was created
-9. *click** Save & Next
+9. click **Save & Next**
 
 |image21|
 

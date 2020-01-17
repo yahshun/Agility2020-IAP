@@ -1,7 +1,7 @@
 Lab – Applications
 ------------------------------------------------
 
-In this section you will a second application with subpaths.  
+In this section you will define a second application with subpaths.  
 
 Task – Configure Application header-iap.acme.com
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -14,17 +14,19 @@ Task – Configure Application header-iap.acme.com
 
 |image12|
 
-3. Click **Show Advanced Setting** in the top right corner
+3. Click **Show Advanced Setting** in the top right corner to see additional properties
 4. Enter Name **header-iap.acme.com**
 5. Enter FQDN **header-iap.acme.com**
 6. Enter Subpath Pattern **/admin.php**
 7. Enter IP address **10.1.20.6**
 8. Click **Save**
 
+.. note :: Subpaths are used in Application groups to define Contextual access on portions of an application separate from the default contextual access Policy.  An application and be broken up into multiple applications groups if necessary to meet an organizations access control needs.
+
 |image13|
 
-9. Enter Auth Domain **iap1.acme.com
-10. Ensure header-iap.acme.com was created.
+9. Enter Auth Domain **iap1.acme.com**
+10. Ensure **header-iap.acme.com** was created.
 
 |image14|
 

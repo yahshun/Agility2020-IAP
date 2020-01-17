@@ -8,27 +8,27 @@ Task – Configure a RADIUS AAA Server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-#. **Check** Enable MultiFactor Authentication
+1. Check **Enable MultiFactor Authentication**
 
 |image13|
 
-#. Select **Custom Radius Based**
+2. Select **Custom Radius Based**
 
 |image14|
 
-#.Select **Create New** from the Choose RADIUS Server dropdown
+3.Select **Create New** from the Choose RADIUS Server dropdown
 
 |image15|
 
-#. Enter the Server Pool Name **radius_pool**
-#. Enter the Server Address **10.1.20.8**
-#. Enter the Secret **secret**
-#. **Click** Save
+4. Enter the Server Pool Name **radius_pool**
+5. Enter the Server Address **10.1.20.8**
+6. Enter the Secret **secret**
+7. Click **Save**
 
 |image16|
 
-#. Verify Custom RADIUS based Authentication appears
-#. **Click** Save & Next
+8. Verify Custom RADIUS based Authentication appears
+9. Click **Save & Next**
 
 |image17|
 

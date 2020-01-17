@@ -14,8 +14,8 @@ Task – Access basic-iap.acme.com
 
 |image22|
 
-3. Access the site https://basic.iap.acme.com
-4. Login with the username:**user2 and password:**user2**
+3. Access the site **https://basic.iap.acme.com**
+4. Login with the Username:**user2 and Password:**user2**
 
 |image23|
 
@@ -27,14 +27,16 @@ Task – Access basic-iap.acme.com
 
 |image25|
 
-7. From a seperate access the BIG-IP management interface https://10.1.1.4
+7. From a separate browser tab access the BIG-IP management interface https://10.1.1.4
 
 8. Navigate to Access >> Overview >> **Active Sessions**
 
 |image26|
 
-9. You will see an active session for user2.
-10. Expand the session to see all the submissions by clicking the **+** symbol to the left of the session ID.  You session ID will not match the one displayed below
+9. You will see an active session for **user2**.
+10. Expand the session to see all the submissions by clicking the **+** symbol to the left of the session ID.  
+
+.. note :: Your session ID will not match the one displayed.
 
 |image27|
 
@@ -43,39 +45,40 @@ Task – Access basic-iap.acme.com
 |image28|
 
 12.  You will notice that HTTP Connector received multiple values back in the response and each JSON key is parsed to its own subsession variable. 
-13.  userAccountControl is currently set to 66048.  Which mean the account is enabled and the password never expires.
+13.  userAccountControl is currently set to **66048**.  Which mean the account is enabled and the password never expires.
 14. Click **Cancel**
 
 |image29|
 
-15. Expand the session to see all the submissions by clicking the **+** symbol to the left of the session ID.  You session ID will not match the one displayed below
+15. Expand the session to see all the submissions by clicking the **+** symbol to the left of the session ID.  
+
+.. note :: You session ID will not match the one displayed
+
 |image27|
 
-16. If the HTTP Connector subsession still exists select that specific subsession only and kill the selected Subsession.
+16. If the HTTP Connector subsession still exists select that specific subsession only and kill the selected subsession.
 
-NOTE we are doing to speed up the process and bypass the typical timers associated with HTTP Connector.  This will enable us to see HTTP Connector trigger immediately on the next HTTP request sent from the jump box.
+.. NOTE :: You are doing this to speed up the process and bypass the typical timers associated with HTTP Connector. This will enable you to see HTTP Connector trigger immediately on the next HTTP request sent from the jump box.
 
 |image30|
 
-17. Locate Disable User 2 powershell script shortcut located on the desktop.  
+17. Locate Disable User 2 Powershell script shortcut located on the desktop.  
 
 |image31|
 
-18. Click the Disable User 2 powershell script.  A powershell window will appear disabling the User2 account is Disabled.
-|
-image32|
+18. Click the **Disable User 2** Powershell script.  A Powershell window will appear disabling the User2 account is Disabled.
+
+|image32|
 
 18. Return to your existing https://basic-iap.acme.com session.
-19. Click on one of the links for the website.  You will receive a Deny Page.
+19. Click on one of the links for the website.  You will receive a **Deny Page**.
 
 
 |image33|
 
-20.  If you return to the subsession variables screen in BIG-IP you will see the session returned is 66050.
+20.  If you return to the subsession variables screen in BIG-IP you will see the session returned is **66050**.
 
 |image34|
-
-
 
 
 

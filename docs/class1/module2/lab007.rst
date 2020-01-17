@@ -1,14 +1,14 @@
 Lab – Testing
 ------------------------------------------------
 
-In this section you will using user1's credentials to default website header-iap.acme.com.  However, when you attempt to access the admin page you will be prompted for the  certificate based authentication.  After a successful login you will close your browser and login to default website using user2's creditials.  When you attempt to login to the admin site due to the group check you will be denied.
+In this section you will use user1's credentials to default website header-iap.acme.com.  However, when you attempt to access the admin page you will be prompted for certificate based authentication.  After a successful login you will close your browser and login to default website using user2's credentials.  User2 will be denied due to not having the correct AD groups.
 
 Task – Login to header-iap.acme.com using user1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. From the jump-box, open a new browser tab
 2. Access the site https://header-iap.acme.com
-3. At the logon page enter the Username: **user1** and password: **user1**
+3. At the logon page enter the Username: **user1** and Password: **user1**
 4. Click **Logon**
 
 |image30|
@@ -17,7 +17,7 @@ Task – Login to header-iap.acme.com using user1
 
 |image31|
 
-6. Access the admin portion of the website https://header-iap.acme.com/admim.php
+6. Access the **admin** portion of the website https://header-iap.acme.com/admim.php
 
 |image32|
 
@@ -26,25 +26,25 @@ Task – Login to header-iap.acme.com using user1
 
 |image33|
 
-9. You should be successfully logged into the admin portion of the site.
+9. You should be successfully logged into the **admin** portion of the site.
 10. Close the browser completely.
 
 Task – Login to header-iap.acme.com using user2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. From the jumpbox, open the browser 
-2. Access the site https://header-iap.acme.com
-3. At the logon page enter the Username: **user2** and password: **user2**
-4. Click **Logon**
+11. From the jumpbox, open the browser 
+12. Access the site https://header-iap.acme.com
+13. At the logon page enter the Username: **user2** and Password: **user2**
+14. Click **Logon**
 
 |image34|
 
-5. Notice the custom header **UserID** has a value of user2
+15. Notice the custom header **UserID** has a value of user2
 
 |image35|
 
-6. Access the admin portion of the website https://header-iap.acme.com/admim.php
-7. You receive a Access Denied page due to not having the correct group membership
+16. Access the **admin** portion of the website https://header-iap.acme.com/admim.php
+17. You receive a **Access Denied** page due to not having the correct group membership
 
 |image36|
 

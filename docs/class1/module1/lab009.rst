@@ -12,7 +12,7 @@ Task – Create Contextual Access for basic-iap.acme.com
 #. Select **fw_check** from the Device Posture dropdown box
 #. Select **ad** from the Primary Authentication dropdown box
 #. Select **basic_sso** from the Single Sign-On dropdown box
-#. **Check** Enable Additional Checks
+#. Check **Enable Additional Checks**
 
 |image23|
 

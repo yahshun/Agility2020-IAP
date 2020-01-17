@@ -1,12 +1,12 @@
 Lab – Access Guided Configuration
 -----------------------------------
 
-The first step in onboarding a new application to the IAP is accessing the guided configuration
+The first step in onboarding a new application to the IAP is accessing the Guided Configuration
 
 Task – Access the Zero Trust IAP guided configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. From the web browser, click on the **Access** tab located on the lefthand side.
+1. From the web browser, click on the **Access** tab located on the left side.
 
 |image0|
 

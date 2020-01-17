@@ -42,9 +42,9 @@ Task – Create a ServerSide SSL Profile
 |image6|
 
 2. Enter Name **adapi.f5lab.local**
-3. **Check** Custom box to the right of Certificate and Key
-4. Select apiadmin.crt from the Certificate dropdown
-5. Select apiadmin.key from the key dropdown
+3. Check **Custom** box to the right of Certificate and Key
+4. Select **apiadmin.crt** from the Certificate dropdown
+5. Select **apiadmin.key** from the key dropdown
 6. Click **Finished** at the Bottom of the page
 
 |image7|
@@ -76,7 +76,7 @@ Task – Create a HTTP Connector Request
 
 2. Enter name **get-aduser-attributes**
 3. Select **demo-http-connector** from the dropdown 
-4. Enter URL **https://adapi.f5lab.local:8443/aduser/get?useridentity=%{overflow.username}**
+4. Enter URL **https://adapi.f5lab.local:8443/aduser/get?useridentity=%{perflow.username}**
 5. Enter **GET** for the Method
 6. Select **Parse** for the Response Action
 7. Click **Save** 
