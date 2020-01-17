@@ -1,7 +1,7 @@
 Lab – Access Guided Configuration
 -----------------------------------
 
-The first step in onboarding a new application to the IAP is accessing the guided configuration
+To enable Logon Protection you must return to Guided Configuration
 
 Task – Access the Zero Trust IAP guided configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
