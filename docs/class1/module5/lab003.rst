@@ -1,33 +1,26 @@
-Lab – SSO & HTTP Header
+Lab – Device Certificate
 ------------------------------------------------
 
-In this section, you will define the virtual server IP address its SSL profile settings 
+When the configuration file is set to sign posture data it used the specified certificate/key pair in the machines local certifcate store.
 
-Task – Create a virtual server
+Task – Explore the Device Certificate
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+1. Open the jump box's certificate store by clicking the Certificate Management shortcut located on the desktop
 
+|image7|
+2. Double-Click the jumpbox.f5lab.local certificate
 
-1. **Click** Show Advanced Setting located in the top right corner to expose the Server-Side SSL profile settings
-2. Enter the IP address **10.1.10.100**
 |image8|
 
-
-3. **Click** the Create New radio button under Client SSL Profile
-
-4. Select **acme.com-wildcard.crt** from the Client SSL certificate dropdown box
-5. Select **acme.com-wildcard.key** from the Associated Private Key dropdown box
-6. Select **ca.f5lab.local.crt** from the Trusted Certificate Authorities for Client Authentication drop down box
+3. Click the details tab and scroll to the Enhanced Key Usage section.  The default usage types associated with a Microsoft CA template is Client Authentication and Server Authentication.  The default template must be modified to include Secure Email. 
 
 |image9|
 
-7. Select **serverssl** from the Server SSL Profile options
-8. **Click** Save & Next
-
-|image10|
+4. Click OK and close the Certificate management window 
 
 
-.. |image8| image:: /_static/class1/module1/image008.png
-.. |image9| image:: /_static/class1/module1/image009.png
-.. |image10| image:: /_static/class1/module1/image010.png
+.. |image7| image:: /_static/class1/module5/image007.png
+.. |image8| image:: /_static/class1/module5/image008.png
+.. |image9| image:: /_static/class1/module5/image009.png
 
