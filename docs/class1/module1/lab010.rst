@@ -19,7 +19,7 @@ The default **remediation Page** URL uses the hostname site request.com.  This s
 
 2. Click **Save & Next**
 
-
+3. On the Logon Protection menu, Click **Save & Next**
 
 .. |image29| image:: /_static/class1/module1/image029.png
 .. |image30| image:: /_static/class1/module1/image030.png
