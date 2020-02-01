@@ -4,13 +4,10 @@ Lab – XML Configuration File
 The F5 AccessGuardServiceConfig.xml file defines the settings used by the AccessGuard Service.  This file contains settings for the signing certificate, timers, checks performed and websites posture data can be sent to.
 
 
-Task –Explore the configuration file setting
-
+Task – Explore the configuration file setting
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note :: Additional settings can be configured in the XML file beyond this example.  For further information see the Configuring F5 AccessGuard webpage.  
-
-https://techdocs.f5.com/en-us/bigip-15-0-0/big-ip-access-policy-manager-access-guard-config/configuring-f5-access-guard.html
+.. note :: Additional settings can be configured in the XML file beyond this example.  For further information see the article **Configuring F5 AccessGuard** on askf5.com - https://techdocs.f5.com/en-us/bigip-15-0-0/big-ip-access-policy-manager-access-guard-config/configuring-f5-access-guard.html
 
 1. Open the F5 Access Guard Config file shortcut located on the desktop by right clicking it and opening with notepad++
 
@@ -26,11 +23,11 @@ https://techdocs.f5.com/en-us/bigip-15-0-0/big-ip-access-policy-manager-access-g
 
 |image2|
 
-4. The Config section contain how often posture data is collect and signed.   Also theMatch patterns for URLs to which the health information would be sent via the HTTP header. This prevents AccessGuard from leaking client configuration data to an untrusted server
+4. The Config section contain how often posture data is collect and signed.   Also the Match patterns for URLs to which the health information would be sent via the HTTP header. This prevents AccessGuard from leaking client configuration data to an untrusted server.
 
 |image3|
 
-5. The Checks section the F5 AccessGuard Service will report on.  As of 15.1 there are currently 10 different checks that can be performed.
+5. The Checks section contains the check F5 AccessGuard Service will report on.  As of 15.1 there are currently 10 different checks that can be performed.
 
 |image4|
 
