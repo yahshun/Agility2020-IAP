@@ -10,11 +10,11 @@ Task – Create a virtual server
 
 1. Click **Show Advanced Setting** located in the top right corner to expose the Server-Side SSL profile settings
 2. Enter the IP address **10.1.10.100**
+
 |image8|
 
 
 3. Click the **Create New** radio button under Client SSL Profile
-
 4. Select **acme.com-wildcard.crt** from the Client SSL certificate dropdown box
 5. Select **acme.com-wildcard.key** from the Associated Private Key dropdown box
 6. Select **ca.f5lab.local.crt** from the Trusted Certificate Authorities for Client Authentication drop down box

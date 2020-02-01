@@ -14,7 +14,7 @@ Task – View the installed Extension
 
 |image11|
 
-3. Access the website **https://basic-iap.acme.com **
+3. Access the website **https://basic-iap.acme.com**
 4. Click on the request **basic-iap.acme.com** under the network tab.
 
 |image12|

@@ -36,7 +36,7 @@ Task – Disable Windows Firewall
 
 In this task you will disable the Windows Firewall
 
-7. Right click the computer icon in the taskbar and open **Network and Sharing Center**8
+7. Right click the computer icon in the taskbar and open **Network and Sharing Center**
 
 |image36|
 
