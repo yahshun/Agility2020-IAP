@@ -1,7 +1,7 @@
 Lab – Testing
 ------------------------------------------------
 
-In this section, you will test how HTTP connector can influence policy changes dynamically as conditions change in the network 
+In this section you will test how HTTP connector can influence policy changes dynamically as conditions change in the network .
 
 Task – Access basic-iap.acme.com
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -14,12 +14,12 @@ Task – Access basic-iap.acme.com
 
 |image22|
 
-3. Access the site **https://basic.iap.acme.com**
-4. Login with the Username:**user2 and Password:**user2**
+3. Access the site **https://basic-iap.acme.com**
+4. Login with the Username: **user2** and Password: **user2**
 
 |image23|
 
-5. Enter the PIN**123456** for RADIUS authentication
+5. Enter the PIN **123456** for RADIUS authentication
 
 |image24|
 
@@ -36,27 +36,27 @@ Task – Access basic-iap.acme.com
 9. You will see an active session for **user2**.
 10. Expand the session to see all the submissions by clicking the **+** symbol to the left of the session ID.  
 
-.. note :: Your session ID will not match the one displayed.
+.. note :: Your session ID will not match the one displayed in the screenshot below.
 
 |image27|
 
-11. Click **View** to the right of the HTTP Connector request **get-user-data** to see the subsession variables.
+11. Click **View** to the right of the HTTP Connector request **get-user-status** to see the subsession variables.
 
 |image28|
 
-12.  You will notice that HTTP Connector received multiple values back in the response and each JSON key is parsed to its own subsession variable. 
-13.  userAccountControl is currently set to **66048**.  Which mean the account is enabled and the password never expires.
+12. You will notice that HTTP Connector received multiple values back in the response and each JSON key was parsed to individual subsession variables. 
+13. userAccountControl is currently set to **66048**.  Which mean the account is enabled and the password never expires.
 14. Click **Cancel**
 
 |image29|
 
 15. Expand the session to see all the submissions by clicking the **+** symbol to the left of the session ID.  
 
-.. note :: You session ID will not match the one displayed
+.. note :: You session ID will not match the one displayed in the screenshot below.
 
 |image27|
 
-16. If the HTTP Connector subsession still exists select that specific subsession only and kill the selected subsession.
+16. If the HTTP Connector subsession still exists check off that specific subsession only and click **Kill Selected Sessions**
 
 .. NOTE :: You are doing this to speed up the process and bypass the typical timers associated with HTTP Connector. This will enable you to see HTTP Connector trigger immediately on the next HTTP request sent from the jump box.
 

@@ -32,19 +32,19 @@ Task – Add the HTTP Connector Request
 7. Enter Name **get-user-status**
 8. Check **HTTP Connector Request**
 9. Select **get-aduser-attributes** from the HTTP Connector Request dropdown
-10. Enter Value **expr {[mcget {subsession.http_connector.body.userAccountControl}] == 66048 }**
+10. Under Value (Success Expression) enter **expr {[mcget {subsession.http_connector.body.userAccountControl}] == 66048 }**
 11. Select **Step Up** from the Match Action dropdown
-12. Select **Custom Radius based Authentication**
+12. Select **Custom Radius based Authentication (MFA)** from the Step Up Authentication field
 13. Click **Save**
 
 |image18|
 
-14. Select **Reject** from the Match Action dropdown for the Default Fallback branch
+14. Change the Match Action field for Default Fallback to **Reject**
 15. Click **Save**
 
 |image19|
 
-16.Click **Deploy**
+16.Click **Deploy**. Deployment will take a few moments.
 
 |image20|
 
