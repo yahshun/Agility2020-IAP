@@ -18,11 +18,12 @@ Task – Configure Certificate Authentication with OCSP
 4. Select **On-Demand Certificate Authentication** from the Authentication Type dropdown
 5. Select **OCSP Responder** from the Authentication Server Type dropdown
 6. Select **prebuilt-ocsp** from the Authentication Server dropdown
-7. Click **Save**
+7. Leave **Request** selected under Choose Auth Mode
+8. Click **Save**
 
 |image5|
 
-8. Ensure the **ocsp** object was created
+8. Verify the **ocsp** object was created
 
 |image6|
 

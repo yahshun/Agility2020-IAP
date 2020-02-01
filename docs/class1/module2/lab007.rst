@@ -6,7 +6,7 @@ In this section you will use user1's credentials to default website header-iap.a
 Task – Login to header-iap.acme.com using user1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. From the jump-box, open a new browser tab
+1. Open a new browser tab
 2. Access the site https://header-iap.acme.com
 3. At the logon page enter the Username: **user1** and Password: **user1**
 4. Click **Logon**
@@ -17,7 +17,7 @@ Task – Login to header-iap.acme.com using user1
 
 |image31|
 
-6. Access the **admin** portion of the website https://header-iap.acme.com/admim.php
+6. Access the **admin** portion of the website https://header-iap.acme.com/admin.php
 
 |image32|
 
@@ -27,12 +27,15 @@ Task – Login to header-iap.acme.com using user1
 |image33|
 
 9. You should be successfully logged into the **admin** portion of the site.
+
+|image37|
+
 10. Close the browser completely.
 
 Task – Login to header-iap.acme.com using user2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-11. From the jumpbox, open the browser 
+11. Open a new broswer window.
 12. Access the site https://header-iap.acme.com
 13. At the logon page enter the Username: **user2** and Password: **user2**
 14. Click **Logon**
@@ -57,5 +60,6 @@ Task – Login to header-iap.acme.com using user2
 .. |image34| image:: /_static/class1/module2/image034.png
 .. |image35| image:: /_static/class1/module2/image035.png
 .. |image36| image:: /_static/class1/module2/image036.png
+.. |image37| image:: /_static/class1/module2/image037.png
 
 

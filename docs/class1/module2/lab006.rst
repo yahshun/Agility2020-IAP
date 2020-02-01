@@ -40,24 +40,25 @@ Task – Configure Contextual Access for ocspauth_header Group
 
 |image25|
 
-8. Click **Add** Enable Additional Checks
+8. Click **Add** to add a Trigger Rule
 
 |image26|
 
 9. Enter Name **ad-webadmin-group-check**
-10. **Check** User Group Check
-11. Use the filter option to locate the **Website Admin** group
-12. Click **Add** under the action column
+10. Check **User Group Check**
+11. Locate the **Website Admin** group **Note** Try using the filter field to search
+12. Click **Add** under the Action column
 
 |image28|
 
-8. Select **Step Up** from the Match Action dropdown
-9. Select **ocsp** from the Step Up Authentication dropdown
-10. Click **Save**
+13. Select **Step Up** from the Match Action dropdown
+14. Select **ocsp** from the Step Up Authentication dropdown
+15. Click **Save**
+16. Click **Save** again to save the Contextual Access Properties for ocsp-header-iap.acme.com
 
 |image29|
 
-11. Click **Deploy** located under the ribbon
+16. Click **Deploy** located under the ribbon. Deployment will take a few moments.
 
 |image27|
 

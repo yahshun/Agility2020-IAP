@@ -15,12 +15,13 @@ Task – Create Custom Header
 |image8|
 
 3. Enter Name **header_sso**
-4. Enter Header Name **UserID**
-5. Click **Save**
+4. Change radio button for Type to **HTTP Headers**
+5. Add Header Name **userID**
+6. Click **Save**
 
 |image9|
 
-6. Ensure the **header_sso** object was created
+6. Verify the **header_sso** object was created
 
 |image10|
 
