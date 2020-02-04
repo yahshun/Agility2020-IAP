@@ -1,9 +1,9 @@
-Lab – Testing
+Lab - Testing
 ------------------------------------------------
 
 In this section you will test how HTTP connector can influence policy changes dynamically as conditions change in the network .
 
-Task – Access basic-iap.acme.com
+Task - Access basic-iap.acme.com
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. From the jump box open Chrome and open Developer Tools 

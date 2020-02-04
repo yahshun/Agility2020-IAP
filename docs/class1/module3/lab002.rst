@@ -1,9 +1,9 @@
-Lab – Add HTTP Connector to the IAP Policy
+Lab - Add HTTP Connector to the IAP Policy
 -------------------------------------------
 
 Now that the HTTP Connector Request has been defined you will add it to basic-iap.acme.com application and test.
 
-Task – Add the HTTP Connector Request
+Task - Add the HTTP Connector Request
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. From the web browser, click on the **Access** tab located on the lefthand side.

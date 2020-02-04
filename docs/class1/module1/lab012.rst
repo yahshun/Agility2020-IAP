@@ -1,9 +1,9 @@
-Lab – Testing 
+Lab - Testing 
 ------------------------------------------------
 
 In this section you will access the application basic-iap.acme.com and watch how the BIG-IP restricts access when a device fails it's posture assessment.
 
-Task – Access basic-iap.acme.com
+Task - Access basic-iap.acme.com
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. NOTE:: Posture Assessments in Per-Request Policy use F5 Access Guard to perform posture assessments prior to accessing an application.  This improves user experience by removing the delay it would previously have taken when doing posture checks.  Secondly this allows posture assessments to happen throughout the life of the session increasing security.
@@ -31,7 +31,7 @@ Task – Access basic-iap.acme.com
 
 
 
-Task – Disable Windows Firewall
+Task - Disable Windows Firewall
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In this task you will disable the Windows Firewall
@@ -54,7 +54,7 @@ In this task you will disable the Windows Firewall
 |image39|
 
 
-Task – See Deny Page basic-iap.acme.com 
+Task - See Deny Page basic-iap.acme.com 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 12. From the jumpbox, open the Chrome Browser
@@ -69,7 +69,7 @@ Task – See Deny Page basic-iap.acme.com
 
 
 
-Task – Enable Windows Firewall
+Task - Enable Windows Firewall
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 5. Right click the computer icon in the taskbar and open **Network and Sharing Center**

@@ -1,9 +1,9 @@
-Lab – User Identity
+Lab - User Identity
 ------------------------------------------------
 
 Adding an additional User Identity to IAP is just a few simple steps. 
 
-Task – Configure Certificate Authentication with OCSP
+Task - Configure Certificate Authentication with OCSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Click **User Identity** in the Ribbon

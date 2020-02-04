@@ -1,9 +1,9 @@
-Lab – User Identity
+Lab - User Identity
 ------------------------------------------------
 
 In this section you will configure a single User Identity using Active Directory.  
 
-Task – Configure Active Directory AAA
+Task - Configure Active Directory AAA
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Enter **"ad"** for the name

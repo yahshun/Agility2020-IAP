@@ -1,9 +1,9 @@
-Lab – Virtual Server
+Lab - Virtual Server
 ------------------------------------------------
 
 In this section, you will define the virtual server IP address its SSL profile settings 
 
-Task – Create a virtual server
+Task - Create a virtual server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 

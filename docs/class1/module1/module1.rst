@@ -1,4 +1,4 @@
-Module – Create an Identity Aware Proxy
+Module - Create an Identity Aware Proxy
 =============================================
 
 
