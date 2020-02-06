@@ -4,7 +4,7 @@ F5 Agility Labs - Index
 Welcome
 -------
 
-Welcome to the |classbold| lab at F5 Agility |year|
+Welcome to the Agility IAM labs.
 
 |repoinfo|
 
@@ -14,6 +14,5 @@ Welcome to the |classbold| lab at F5 Agility |year|
    :caption: Contents:
    :glob:
 
-   intro
    class*/class*
 
