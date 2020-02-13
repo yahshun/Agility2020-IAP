@@ -26,8 +26,8 @@ Task - Create a DNS Resolver
 
 |image4|
 
-6. Enter Name **.**
-7. Add a Nameserver by entering Address **10.1.20.7** and click Add
+6. Enter **.** (a single dot) in the **Name** field
+7. Add a Nameserver by entering Address **10.1.20.7** and click **Add**
 8. Click **Finished**
 
 |image5|

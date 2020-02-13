@@ -1,7 +1,7 @@
 Lab - Contextual Access
 ------------------------------------------------
 
-In this section you will define contextual access for the previously created application.  Context access is where all of the previously created objects are put together to provide fine-grain access control.
+In this section you will define contextual access for the previously created application.  Contextual access combines previously defined objects to enable fine-grained access control.
 
 Task - Create Contextual Access for basic-iap.acme.com
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -16,7 +16,7 @@ Task - Create Contextual Access for basic-iap.acme.com
 
 |image23|
 
-#. Select **Step Up** from the dropdown box under Match Action
+#. For the **Default Fallback** rule, select **Step Up** from the dropdown box under **Match Action**
 
 #. Select **Custom Radius based Authentication (MFA)** from the Step Up Authentication box
 

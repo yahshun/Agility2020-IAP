@@ -12,13 +12,12 @@ Task - Add the HTTP Connector Request
 
 2. Click **Guided Configuration**
 
-|image13|
-
 3. Click **IAP_DEMO** 
 
 |image14|
 
 4. Click on **Contextual Access**
+
 |image15|
 
 5. Click on **basic-iap.acme.com**
@@ -39,7 +38,7 @@ Task - Add the HTTP Connector Request
 
 |image18|
 
-14. Change the Match Action field for Default Fallback to **Reject**
+14. Change the **Match Action** field for **Default Fallback** rule to **Reject**
 15. Click **Save**
 
 |image19|
@@ -53,7 +52,6 @@ Task - Add the HTTP Connector Request
 
 
 .. |image12| image:: /_static/class1/module3/image012.png
-.. |image13| image:: /_static/class1/module3/image013.png
 .. |image14| image:: /_static/class1/module3/image014.png
 .. |image15| image:: /_static/class1/module3/image015.png
 .. |image16| image:: /_static/class1/module3/image016.png

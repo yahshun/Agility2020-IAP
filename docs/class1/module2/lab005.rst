@@ -1,7 +1,7 @@
 Lab - Application Groups
 ------------------------------------------------
 
-In this section you will configure two application groups to enforce different policies on parts of the header-iap.acme.com website.  
+In this section you will configure two Application Groups to enforce different policies on parts of the header-iap.acme.com website.  
 
 Task - Create adauth_header Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

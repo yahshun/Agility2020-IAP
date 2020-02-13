@@ -46,7 +46,10 @@ Task - Configure Contextual Access for ocspauth_header Group
 
 9. Enter Name **ad-webadmin-group-check**
 10. Check **User Group Check**
-11. Locate the **Website Admin** group **Note** Try using the filter field to search
+11. Locate the **Website Admin** group
+
+.. tip:: Try using the filter field to search
+
 12. Click **Add** under the Action column
 
 |image28|
