@@ -1,10 +1,10 @@
-Lab – Contextual Access
+Lab - Contextual Access
 ------------------------------------------------
 
 In this section you will configure Contextual Access for the previously created Application Groups
 
 
-Task – Configure Contextual Access for adauth_header Group
+Task - Configure Contextual Access for adauth_header Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Click **Contextual Access** from the ribbon
@@ -24,7 +24,7 @@ Task – Configure Contextual Access for adauth_header Group
 
 |image23|
 
-Task – Configure Contextual Access for ocspauth_header Group
+Task - Configure Contextual Access for ocspauth_header Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Click **Add**
@@ -46,7 +46,10 @@ Task – Configure Contextual Access for ocspauth_header Group
 
 9. Enter Name **ad-webadmin-group-check**
 10. Check **User Group Check**
-11. Locate the **Website Admin** group **Note** Try using the filter field to search
+11. Locate the **Website Admin** group
+
+.. tip:: Try using the filter field to search
+
 12. Click **Add** under the Action column
 
 |image28|

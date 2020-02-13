@@ -1,9 +1,9 @@
-Lab – Access Guided Configuration
+Lab - Access Guided Configuration
 -----------------------------------
 
 To onboard a new application to the IAP, you will first access the Guided Configuration menu.
 
-Task – Access the Zero Trust IAP guided configuration
+Task - Access the Zero Trust IAP guided configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. From the web browser, click on the **Access** tab located on the left side.

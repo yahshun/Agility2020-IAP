@@ -1,15 +1,15 @@
-Lab – Testing 
+Lab - Testing 
 ------------------------------------------------
 
 In this section you will access the application basic-iap.acme.com and watch how the BIG-IP restricts access when a device fails it's posture assessment.
 
-Task – Access basic-iap.acme.com
+Task - Access basic-iap.acme.com
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. NOTE:: Posture Assessments in Per-Request Policy use F5 Access Guard to perform posture assessments prior to accessing an application.  This improves user experience by removing the delay it would previously have taken when doing posture checks.  Secondly this allows posture assessments to happen throughout the life of the session increasing security.
+.. NOTE:: Posture Assessments in a Per-Request Policy use F5 Access Guard (running on clients) to perform posture assessments prior to accessing an application.  This improves the user experience since posture checks do not introduce any delay when accessing the application.  This also improves security by allowing posture assessments to occur continuously throughout the life of the session.
 
 1. From the jumpbox, open a new browser tab
-2. Access the site https://basic-iap.acme.com
+2. Browse to https://basic-iap.acme.com
 
 |image32|
 
@@ -31,7 +31,7 @@ Task – Access basic-iap.acme.com
 
 
 
-Task – Disable Windows Firewall
+Task - Disable Windows Firewall
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In this task you will disable the Windows Firewall
@@ -54,22 +54,22 @@ In this task you will disable the Windows Firewall
 |image39|
 
 
-Task – See Deny Page basic-iap.acme.com 
+Task - See Deny Page basic-iap.acme.com 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 12. From the jumpbox, open the Chrome Browser
 
-13. Access the site https://basic-iap.acme.com
+13. Browse to https://basic-iap.acme.com
 
-14. You will receive a deny page from the the IAP stating you have failed the network firewall check
+14. You will receive a deny page from the the IAP stating that you have failed the network firewall check
 
 |image40|
 
-4. Close the browser Window to ensure there is not cached data
+4. Close the browser Window to ensure there is no cached data
 
 
 
-Task – Enable Windows Firewall
+Task - Enable Windows Firewall
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 5. Right click the computer icon in the taskbar and open **Network and Sharing Center**

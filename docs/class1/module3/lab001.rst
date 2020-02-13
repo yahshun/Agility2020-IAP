@@ -1,9 +1,9 @@
-Lab – Create the HTTP Connector Request
+Lab - Create the HTTP Connector Request
 ---------------------------------------
 
 The HTTP Connector is made up of two parts.  The first part is called the HTTP Connector Transport and it defines settings related to SSL, DNS, timeouts, and payload sizes.  The second part is the HTTP Connector Request which contains specific details such as HTTP Method, URL, message body, and how to handle the HTTP responses.
 
-Task – Create a DNS Resolver
+Task - Create a DNS Resolver
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Navigate to Network >> DNS Resolvers >> DNS Resolver List. Click the  **+** Symbol
@@ -26,14 +26,14 @@ Task – Create a DNS Resolver
 
 |image4|
 
-6. Enter Name **.**
-7. Add a Nameserver by entering Address **10.1.20.7** and click Add
+6. Enter **.** (a single dot) in the **Name** field
+7. Add a Nameserver by entering Address **10.1.20.7** and click **Add**
 8. Click **Finished**
 
 |image5|
 
 
-Task – Create a ServerSide SSL Profile
+Task - Create a ServerSide SSL Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Navigate to Local Traffic >> Profiles >> SSL >> Server. Click the  **+** Symbol
@@ -51,7 +51,7 @@ Task – Create a ServerSide SSL Profile
 
 
 
-Task – Create a HTTP Connector Transport
+Task - Create a HTTP Connector Transport
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Navigate to Access >> Authentication >> HTTP Connector >> HTTP Connector Transport  Click the  **+** Symbol
@@ -66,7 +66,7 @@ Task – Create a HTTP Connector Transport
 |image9|
 
 
-Task – Create a HTTP Connector Request
+Task - Create a HTTP Connector Request
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Navigate to Access >> Authentication >> HTTP Connector >> HTTP Connector Request.  Click the  **+** Symbol

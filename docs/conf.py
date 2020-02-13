@@ -13,6 +13,8 @@ github_repo = "https://github.com/yahshun/Agility2020-IAP.git"
 # OPTIONAL: Google Analytics
 # googleanalytics_id = 'UA-85156643-4'
 
+smartquotes = False
+
 #
 # END CONFIG
 # ----------
