@@ -3,7 +3,7 @@ F5 Agility Lab - Identity Aware Proxy
 
 This repo contains the source content for the Identity Aware Proxy lab guide.
 
-https://github.com/yahshun/Agility2020-IAP
+Github Repo: https://github.com/yahshun/Agility2020-IAP
 
 RTD Preview: https://agility2020-iap-dev.readthedocs.io/en/latest/index.html
 
