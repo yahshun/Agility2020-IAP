@@ -1,43 +1,43 @@
-Lab - Application Groups
+Lab 2.5 - Application Groups
 ------------------------------------------------
 
-In this section you will configure two Application Groups to enforce different policies on parts of the header-iap.acme.com website.  
+In this section you will configure two Application Groups to enforce different policies on parts of the header-iap.acme.com website.
 
 Task - Create adauth_header Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Click **Application Groups** from the ribbon.
+#. Click **Application Groups** from the ribbon.
 
 |image15|
 
-2. Check **Enable Application Groups**
+#. Check **Enable Application Groups**
 
 |image16|
 
-3. Enter Name **adauth_header-iap.acme.com**
-4. Under Applications List, select **/** and click the arrow to move it into the Selected box
-5. Click **Save** 
- 
+#. Enter Name **adauth_header-iap.acme.com**
+
+#. Under Applications List, select **/** and click the arrow to move it into the Selected box
+
+#. Click **Save**
+
 |image17|
 
 Task - Create ocspauth_header Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-6. Click **Add** to create a second application group
+#. Click **Add** to create a second application group
 
 |image18|
 
-7. Enter Name **ocspauth_header-iap.acme.com**
-8. Under Applications List, select **/admin.php** and click the arrow to move it into the Selected box
-9. Click **Save** 
+#. Enter Name **ocspauth_header-iap.acme.com**
+#. Under Applications List, select **/admin.php** and click the arrow to move it into the Selected box
+#. Click **Save**
 
 |image19|
- 
-10. Verify both applications groups have been created.
+
+#. Verify both applications groups have been created.
 
 |image20|
-
-
 
 
 .. |image15| image:: /_static/class1/module2/image015.png
@@ -46,6 +46,3 @@ Task - Create ocspauth_header Group
 .. |image18| image:: /_static/class1/module2/image018.png
 .. |image19| image:: /_static/class1/module2/image019.png
 .. |image20| image:: /_static/class1/module2/image020.png
-
-
-

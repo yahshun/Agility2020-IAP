@@ -1,54 +1,58 @@
-Lab - Add HTTP Connector to the IAP Policy
--------------------------------------------
+Lab 3.2 - Add HTTP Connector to the IAP Policy
+-----------------------------------------------
 
 Now that the HTTP Connector Request has been defined you will add it to basic-iap.acme.com application and test.
 
 Task - Add the HTTP Connector Request
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. From the web browser, click on the **Access** tab located on the lefthand side.
+#. From the web browser, click on the **Access** tab located on the lefthand side.
 
-2. Click **Guided Configuration**
+#. Click **Guided Configuration**
 
 |image13|
 
-3. Click **IAP_DEMO** 
+#. Click **IAP_DEMO**
 
 |image14|
 
-4. Click on **Contextual Access**
+#. Click on **Contextual Access**
 
 |image15|
 
-5. Click on **basic-iap.acme.com**
+#. Click on **basic-iap.acme.com**
 
 |image16|
 
-6. Click **Add** under Trigger Rules
+#. Click **Add** under Trigger Rules
 
 |image17|
 
-7. Enter Name **get-user-status**
-8. Check **HTTP Connector Request**
-9. Select **get-aduser-attributes** from the HTTP Connector Request dropdown
-10. Under Value (Success Expression) enter **expr {[mcget {subsession.http_connector.body.userAccountControl}] == 66048 }**
-11. Select **Step Up** from the Match Action dropdown
-12. Select **Custom Radius based Authentication (MFA)** from the Step Up Authentication field
-13. Click **Save**
+#. Enter Name **get-user-status**
+
+#. Check **HTTP Connector Request**
+
+#. Select **get-aduser-attributes** from the HTTP Connector Request dropdown
+
+#. Under Value (Success Expression) enter **expr {[mcget {subsession.http_connector.body.userAccountControl}] == 66048 }**
+
+#. Select **Step Up** from the Match Action dropdown
+
+#. Select **Custom Radius based Authentication (MFA)** from the Step Up Authentication field
+
+#. Click **Save**
 
 |image18|
 
-14. Change the **Match Action** field for **Default Fallback** rule to **Reject**
-15. Click **Save**
+#. Change the **Match Action** field for **Default Fallback** rule to **Reject**
+
+#. Click **Save**
 
 |image19|
 
-16.Click **Deploy**. Deployment will take a few moments.
+#.Click **Deploy**. Deployment will take a few moments.
 
 |image20|
-
-
-
 
 
 .. |image13| image:: /_static/class1/module3/image013.png
@@ -59,6 +63,3 @@ Task - Add the HTTP Connector Request
 .. |image18| image:: /_static/class1/module3/image018.png
 .. |image19| image:: /_static/class1/module3/image019.png
 .. |image20| image:: /_static/class1/module3/image020.png
-
-
-
