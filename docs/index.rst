@@ -10,9 +10,7 @@ Welcome to the Agility IAM labs.
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :caption: Contents:
    :glob:
 
    class*/class*
-
