@@ -1,28 +1,28 @@
-Lab - Access Guided Configuration
------------------------------------
+Lab 1.1 - Access Guided Configuration
+---------------------------------------
 
 The first step in deploying the IAP is accessing Guided Configuration
 
 Task - Access the Zero Trust IAP guided configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. From the webbrowser, click on the **Access** tab located on the left side.
+#. From the webbrowser, click on the **Access** tab located on the left side.
 
 |image0|
 
-2. Click **Guided Configuration**
+#. Click **Guided Configuration**
 
 |image1|
 
-3. Click **Zero Trust**
+#. Click **Zero Trust**
 
 |image2|
 
-4. Click **Identity Aware Proxy**
+#. Click **Identity Aware Proxy**
 
 |image3|
 
-5. Click **Next**
+#. Click **Next**
 
 
 .. NOTE::  Review the design considerations for deploying IAP in a **Single Proxy** versus a **Multi-proxy** solution.

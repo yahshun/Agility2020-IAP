@@ -1,4 +1,4 @@
-Lab - Applications
+Lab 1.7 - Applications
 ------------------------------------------------
 
 In this section you will define a single application
@@ -6,14 +6,15 @@ In this section you will define a single application
 Task - Create basic-iap.acme.com application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Enter the **basic-iap.acme.com** for the application name
-2. Enter the **basic-iap.acme.com** for the FQDN
-3. Enter the IP address **10.1.20.6** for the pool member
-4. Click **Save** 
+#. Enter the **basic-iap.acme.com** for the application name
+
+#. Enter the **basic-iap.acme.com** for the FQDN
+
+#. Enter the IP address **10.1.20.6** for the pool member
+
+#. Click **Save**
 
 |image22|
-
-
 
 
 .. |image22| image:: /_static/class1/module1/image022.png
