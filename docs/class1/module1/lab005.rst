@@ -1,4 +1,4 @@
-Lab - MFA
+Lab 1.5 - MFA
 ------------------------------------------------
 
 In this section you will configure a RADIUS server to enable simulated MFA capabilities.
@@ -8,27 +8,31 @@ Task - Configure a RADIUS AAA Server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-1. Check **Enable MultiFactor Authentication**
+#. Check **Enable MultiFactor Authentication**
 
 |image13|
 
-2. Select **Custom Radius Based**
+#. Select **Custom Radius Based**
 
 |image14|
 
-3.Select **Create New** from the Choose RADIUS Server dropdown
+#.Select **Create New** from the Choose RADIUS Server dropdown
 
 |image15|
 
-4. Enter the Server Pool Name **radius_pool**
-5. Enter the Server Address **10.1.20.8**
-6. Enter the Secret **secret**
-7. Click **Save**
+#. Enter the Server Pool Name **radius_pool**
+
+#. Enter the Server Address **10.1.20.8**
+
+#. Enter the Secret **secret**
+
+#. Click **Save**
 
 |image16|
 
-8. Verify Custom RADIUS based Authentication appears
-9. Click **Save & Next**
+#. Verify Custom RADIUS based Authentication appears
+
+#. Click **Save & Next**
 
 |image17|
 

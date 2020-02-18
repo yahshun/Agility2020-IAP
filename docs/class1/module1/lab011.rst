@@ -1,18 +1,17 @@
-Lab - Summary
+Lab 1.11 - Summary
 ------------------------------------------------
 
 The **Summary** page allows you to review the configuration that is about to be deployed.  In the event a change is required anywhere in the configuration, the **pencil icon** on the right side can be selected to quickly edit the appropriate section.
 
 
-
 Task - Deploy the configuration 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Click **Deploy**
+#. Click **Deploy**
 
 |image31|
 
-2. Once the deployment is complete, click **Finish**
+#. Once the deployment is complete, click **Finish**
 
 .. |image31| image:: /_static/class1/module1/image031.png
 
