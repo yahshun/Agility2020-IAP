@@ -1,9 +1,9 @@
-Lab 1.8 - Application Groups
+Lab – Application Groups
 ------------------------------------------------
 
-Application Groups will be covered in a later section of the lab.
+Application Groups will be covers in a later section of the lab.
 
-Task - Skip Application Group Section
+Task – Skip Application Group Section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Click **Save & Next**

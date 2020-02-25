@@ -1,22 +1,14 @@
-Lab 2.7 - Testing
+Lab – Testing
 ------------------------------------------------
 
 In this section you will use user1's credentials to default website header-iap.acme.com.  However, when you attempt to access the admin page you will be prompted for certificate based authentication.  After a successful login you will close your browser and login to default website using user2's credentials.  User2 will be denied due to not having the correct AD groups.
 
-Task - Login to header-iap.acme.com using user1
+Task – Login to header-iap.acme.com using user1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Open a new browser tab
-<<<<<<< HEAD
 #. Access the site https://header-iap.acme.com
 #. At the logon page enter the Username: **user1** and Password: **user1**
-=======
-
-#. Access the site https://header-iap.acme.com
-
-#. At the logon page enter the Username: **user1** and Password: **user1**
-
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. Click **Logon**
 
    |image30|
@@ -30,10 +22,6 @@ Task - Login to header-iap.acme.com using user1
    |image32|
 
 #. Select the certificate **user1**
-<<<<<<< HEAD
-=======
-
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. Click **OK**
 
    |image33|
@@ -44,21 +32,12 @@ Task - Login to header-iap.acme.com using user1
 
 #. Close the browser completely.
 
-Task - Login to header-iap.acme.com using user2
+Task – Login to header-iap.acme.com using user2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-<<<<<<< HEAD
 #. Open a new browser window.
 #. Access the site https://header-iap.acme.com
 #. At the logon page enter the Username: **user2** and Password: **user2**
-=======
-#. Open a new broswer window.
-
-#. Access the site https://header-iap.acme.com
-
-#. At the logon page enter the Username: **user2** and Password: **user2**
-
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. Click **Logon**
 
    |image34|
@@ -67,12 +46,7 @@ Task - Login to header-iap.acme.com using user2
 
    |image35|
 
-<<<<<<< HEAD
 #. Access the **admin** portion of the website https://header-iap.acme.com/admim.php
-=======
-#. Access the **admin** portion of the website https://header-iap.acme.com/admin.php
-
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. You receive a **Access Denied** page due to not having the correct group membership
 
    |image36|
@@ -87,3 +61,5 @@ Task - Login to header-iap.acme.com using user2
 .. |image35| image:: /_static/class1/module2/image035.png
 .. |image36| image:: /_static/class1/module2/image036.png
 .. |image37| image:: /_static/class1/module2/image037.png
+
+

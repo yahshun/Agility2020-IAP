@@ -1,32 +1,22 @@
-Lab 1.10 - Customization
+Lab – Customization
 ------------------------------------------------
 
-The Customization section allows an administrator to define the images, colors, and messages that are presented to a a user.
+The Customization sections allows an administrator to define the images, colors, and messages that are presented to a a user.
 
-Task - Customize the Remediation Page URL
+Task – Customize the Remediation Page URL
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Scroll down to the Remediation Page section.
+The default **remediation Page** URL uses the hostname site request.com.  This should be changed to something useful for users in the event they need to download and install the EPI update.
 
-The default **remediation Page** URL uses the hostname **siterequest.com**.  This should be changed to reference a real host where users can download and install the EPI updates.
 
    |image29|
 
 #. Enter the URL **https://iap1.acme.com/epi/downloads**
 
-<<<<<<< HEAD
    |image30|
 
 #. Click **Save & Next**
 
-=======
-#. Enter the URL **https://iap1.acme.com/epi/downloads**
-
-|image30|
-
-#. Click **Save & Next**
-
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. On the Logon Protection menu, Click **Save & Next**
 
 .. |image29| image:: /_static/class1/module1/image029.png

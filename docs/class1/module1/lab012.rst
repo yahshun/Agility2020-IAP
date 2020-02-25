@@ -1,119 +1,68 @@
-Lab 1.12 - Testing
+Lab – Testing 
 ------------------------------------------------
 
 In this section you will access the application basic-iap.acme.com and watch how the BIG-IP restricts access when a device fails it's posture assessment.
 
-Task - Access basic-iap.acme.com
+Task – Access basic-iap.acme.com
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. NOTE:: Posture Assessments in a Per-Request Policy use F5 Access Guard (running on clients) to perform posture assessments prior to accessing an application.  This improves the user experience since posture checks do not introduce any delay when accessing the application.  This also improves security by allowing posture assessments to occur continuously throughout the life of the session.
+.. NOTE:: Posture Assessments in Per-Request Policy use F5 Access Guard to perform posture assessments prior to accessing an application.  This improves user experience by removing the delay it would previously have taken when doing posture checks.  Secondly this allows posture assessments to happen throughout the life of the session increasing security.
 
-<<<<<<< HEAD
 #. From the jumpbox, open a new browser tab and Access the site https://basic-iap.acme.co
 #. At the logon page enter the Username:**user1** and Password:**user1**
 #. Click **Logon**
-=======
-#. From the jumpbox, open a new browser tab
-#. Browse to https://basic-iap.acme.com
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 
    |image33|
 
-<<<<<<< HEAD
-=======
-#. At the logon page enter the Username:**user1** and Password:**user1**
-#. Click **Logon**
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 
 #. The RADIUS logon page, prepopulates the username:**user1**.  Enter the PIN: **123456**
 
    |image34|
 
-<<<<<<< HEAD
 #. The SSO profile passes the username and password to the website for logon.
-=======
-#. The RADIUS logon page, prepopulates the username:**user1**.  Enter the PIN: **123456**
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 
    |image35|
 
-<<<<<<< HEAD
-=======
-#. The SSO profile passes the username and password to the website for logon.
-
-|image35|
-
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. Close the browser Window to ensure there is not cached data
 
 
 
-Task - Disable Windows Firewall
+Task – Disable Windows Firewall
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Right click the computer icon in the taskbar and open **Network and Sharing Center**
 
-<<<<<<< HEAD
    |image36|
-=======
-#. Right click the computer icon in the taskbar and open **Network and Sharing Center**
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 
 #. Click **Windows Firewall**
 
-<<<<<<< HEAD
    |image37|
-=======
-#. Click **Windows Firewall**
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 
 #. Click **Turn Windows Firewall on or off**
 
-<<<<<<< HEAD
    |image38|
-=======
-#. Click **Turn Windows Firewall on or off**
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 
 #. Click the radio button **Turn off Windows Firewall** under Public Network Settings
 #. Click **Ok**
 
-<<<<<<< HEAD
    |image39|
-=======
-#. Click the radio button **Turn off Windows Firewall** under Public Network Settings
-#. Click **Ok**
-
-|image39|
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 
 
-Task - See Deny Page basic-iap.acme.com
+Task – See Deny Page basic-iap.acme.com 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. From the jumpbox, open the Chrome Browser
-<<<<<<< HEAD
 
 #. Access the site https://basic-iap.acme.com
-=======
-
-#. Browse to https://basic-iap.acme.com
-
-#. You will receive a deny page from the the IAP stating that you have failed the network firewall check
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 
 #. You will receive a deny page from the the IAP stating you have failed the network firewall check
 
-<<<<<<< HEAD
    |image40|
-=======
-#. Close the browser Window to ensure there is no cached data
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 
 #. Close the browser Window to ensure there is not cached data
 
 
-Task - Enable Windows Firewall
+Task – Enable Windows Firewall
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Right click the computer icon in the taskbar and open **Network and Sharing Center**
@@ -145,3 +94,4 @@ Task - Enable Windows Firewall
 .. |image39| image:: /_static/class1/module1/image039.png
 .. |image40| image:: /_static/class1/module1/image040.png
 .. |image41| image:: /_static/class1/module1/image041.png
+

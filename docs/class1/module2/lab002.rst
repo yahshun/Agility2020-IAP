@@ -1,9 +1,9 @@
-Lab 2.2 - User Identity
+Lab – User Identity
 ------------------------------------------------
 
-Adding an additional User Identity to IAP is just a few simple steps.
+Adding an additional User Identity to IAP is just a few simple steps. 
 
-Task - Configure Certificate Authentication with OCSP
+Task – Configure Certificate Authentication with OCSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Click **User Identity** in the Ribbon
@@ -14,24 +14,11 @@ Task - Configure Certificate Authentication with OCSP
 
     |image4|
 
-<<<<<<< HEAD
 #. Enter Name **ocsp** 
 #. Select **On-Demand Certificate Authentication** from the Authentication Type dropdown
 #. Select **OCSP Responder** from the Authentication Server Type dropdown
 #. Select **prebuilt-ocsp** from the Authentication Server dropdown
 #. Leave **Request** selected under Choose Auth Mode
-=======
-#. Enter Name **ocsp**
-
-#. Select **On-Demand Certificate Authentication** from the Authentication Type dropdown
-
-#. Select **OCSP Responder** from the Authentication Server Type dropdown
-
-#. Select **prebuilt-ocsp** from the Authentication Server dropdown
-
-#. Leave **Request** selected under Choose Auth Mode
-
->>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. Click **Save**
 
     |image5|
@@ -41,8 +28,10 @@ Task - Configure Certificate Authentication with OCSP
     |image6|
 
 
+
 .. |image3| image:: /_static/class1/module2/image003.png
 	:width: 1000px
 .. |image4| image:: /_static/class1/module2/image004.png
 .. |image5| image:: /_static/class1/module2/image005.png
 .. |image6| image:: /_static/class1/module2/image006.png
+
