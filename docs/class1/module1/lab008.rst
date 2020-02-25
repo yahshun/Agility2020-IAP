@@ -6,7 +6,7 @@ Application Groups will be covers in a later section of the lab.
 Task – Skip Application Group Section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Click **Save & Next**
+#. Click **Save & Next**
 
 |image28|
 

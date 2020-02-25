@@ -6,81 +6,79 @@ The HTTP Connector is made up of two parts.  The first part is called the HTTP C
 Task – Create a DNS Resolver
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Navigate to Network >> DNS Resolvers >> DNS Resolver List. Click the  **+** Symbol
+#. Navigate to Network >> DNS Resolvers >> DNS Resolver List. Click the  **+** Symbol
 
-|image0|
+   |image0|
 
-2. Enter Name **internal_resolver** and click **Finished**
+#. Enter Name **internal_resolver** and click **Finished**
 
-|image1|
+   |image1|
 
-3. Click **internal_resolver** 
+#. Click **internal_resolver** 
 
-|image2|
+   |image2|
 
-4. Click the **Forward Zones** tab
+#. Click the **Forward Zones** tab
 
-|image3|
+   |image3|
 
-5. Click **Add**
+#. Click **Add**
 
-|image4|
+   |image4|
 
-6. Enter Name **.**
-7. Add a Nameserver by entering Address **10.1.20.7** and click Add
-8. Click **Finished**
+#. Enter Name **. (a period)**
+#. Add a Nameserver by entering Address **10.1.20.7** and click **Add**
+#. Click **Finished**
 
-|image5|
+   |image5|
 
 
 Task – Create a ServerSide SSL Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Navigate to Local Traffic >> Profiles >> SSL >> Server. Click the  **+** Symbol
+#. Navigate to Local Traffic >> Profiles >> SSL >> Server. Click the  **+** Symbol
 
-|image6|
+   |image6|
 
-2. Enter Name **adapi.f5lab.local**
-3. Check **Custom** box to the right of the Certificate and Key fields to make them editable.
-4. Select **apiadmin.crt** from the Certificate dropdown
-5. Select **apiadmin.key** from the key dropdown
-6. Click **Finished** at the Bottom of the page
+#. Enter Name **adapi.f5lab.local**
+#. Check **Custom** box to the right of the Certificate and Key fields to make them editable.
+#. Select **apiadmin.crt** from the Certificate dropdown
+#. Select **apiadmin.key** from the key dropdown
+#. Click **Finished** at the Bottom of the page
 
-|image7|
-
-
+   |image7|
 
 
 Task – Create a HTTP Connector Transport
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Navigate to Access >> Authentication >> HTTP Connector >> HTTP Connector Transport  Click the  **+** Symbol
+#. Navigate to Access >> Authentication >> HTTP Connector >> HTTP Connector Transport  Click the  **+ (Plus Symbol)**
 
-|image8|
+   |image8|
 
-2. Enter Name **demo-http-connector**
-3. Select **internal_resolver** from the DNS Resolver dropdown
-4. Select **adapi.f5lab.local** from the Server SSL Profile
-5. Click **Save**
+#. Enter the name **demo-http-connector**
+#. Select **internal_resolver** from the DNS Resolver dropdown
+#. Select **adapi.f5lab.local** from the Server SSL Profile
+#. Click **Save**
 
-|image9|
+   |image9|
 
 
 Task – Create a HTTP Connector Request
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Navigate to Access >> Authentication >> HTTP Connector >> HTTP Connector Request.  Click the  **+** Symbol
+#. Navigate to Access >> Authentication >> HTTP Connector >> HTTP Connector Request.  Click the  **+ (Plus Symbol)**
 
-|image10|
+   |image10|
 
-2. Enter name **get-aduser-attributes**
-3. Select **demo-http-connector** from the dropdown 
-4. Enter URL **https://adapi.f5lab.local:8443/aduser/get?useridentity=%{perflow.username}**
-5. Enter **GET** for the Method
-6. Select **Parse** for the Response Action
-7. Click **Save** 
+#. Enter name **get-aduser-attributes**
+#. Select **demo-http-connector** from the dropdown 
+#. Enter URL **https://adapi.f5lab.local:8443/aduser/get?useridentity=%{perflow.username}**
+#. Enter **GET** for the Method
+#. Select **Parse** for the Response Action
+#. Click **Save** 
 
-|image11|
+   |image11|
 
 
 

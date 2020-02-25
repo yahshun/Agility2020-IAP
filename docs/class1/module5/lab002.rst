@@ -6,15 +6,15 @@ The AccessGuard System Service performs the continuous monitoring of the system 
 Task – Locate the F5 Access Guard Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Enter Services into the jump box's desktop search bar.
+#. Enter Services into the jump box's desktop search bar.
 
-|image5|
+   |image5|
 
-2. The F5 Networks Access Guard Service was installed via a .msi available on https://downloads.f5.com
+#. The F5 Networks Access Guard Service was installed via a .msi available on https://downloads.f5.com
 
-|image6|
+   |image6|
 
-3. Close the services screen.
+#. Close the services screen.
 
 .. |image5| image:: /_static/class1/module5/image005.png
 .. |image6| image:: /_static/class1/module5/image006.png

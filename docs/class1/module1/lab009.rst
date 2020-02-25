@@ -14,17 +14,17 @@ Task – Create Contextual Access for basic-iap.acme.com
 #. Select **basic_sso** from the Single Sign-On dropdown box
 #. Check **Enable Additional Checks**
 
-|image23|
+   |image23|
 
 #. Select **Step Up** from the dropdown box under Match Action
 
 #. Select **Custom Radius based Authentication (MFA)** from the Step Up Authentication box
 
-|image24|
+   |image24|
 
 #. Click **Save & Next**
 
-|image25|
+   |image25|
 
 
 

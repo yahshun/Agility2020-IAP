@@ -6,79 +6,81 @@ In this section you will test how HTTP connector can influence policy changes dy
 Task – Access basic-iap.acme.com
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. From the jump box open Chrome and open Developer Tools 
+#. From the jump box open Chrome and open Developer Tools 
 
-|image21|
+   |image21|
 
-2. Ensure **Disable Cache** is checked
+#. Ensure **Disable Cache** is checked
 
-|image22|
+   |image22|
 
-3. Access the site **https://basic-iap.acme.com**
-4. Login with the Username: **user2** and Password: **user2**
+#. Access the site **https://basic-iap.acme.com**
+#. Login with the Username: **user2** and Password: **user2**
 
-|image23|
+   |image23|
 
-5. Enter the PIN **123456** for RADIUS authentication
+#. Enter the PIN **123456** for RADIUS authentication
 
-|image24|
+   |image24|
 
-6. You will be presented the website
+#. You will be presented the website
 
-|image25|
+   |image25|
 
-7. From a separate browser tab access the BIG-IP management interface https://10.1.1.4
+#. From a separate browser tab access the BIG-IP management interface https://10.1.1.4
 
-8. Navigate to Access >> Overview >> **Active Sessions**
+#. Navigate to Access >> Overview >> **Active Sessions**
 
-|image26|
+   |image26|
 
-9. You will see an active session for **user2**.
-10. Expand the session to see all the submissions by clicking the **+** symbol to the left of the session ID.  
+#. You will see an active session for **user2**.
+#. Expand the session to see all the submissions by clicking the **+ (Plus symbol)** to the left of the session ID.  
 
-.. note :: Your session ID will not match the one displayed in the screenshot below.
+   .. note :: Your session ID will not match the one displayed in the screenshot below.
 
-|image27|
+   |image27|
 
-11. Click **View** to the right of the HTTP Connector request **get-user-status** to see the subsession variables.
+#. Click **View** to the right of the HTTP Connector request **get-user-status** to see the subsession variables.
 
-|image28|
+   |image28|
 
-12. You will notice that HTTP Connector received multiple values back in the response and each JSON key was parsed to individual subsession variables. 
-13. userAccountControl is currently set to **66048**.  Which mean the account is enabled and the password never expires.
-14. Click **Cancel**
-
-|image29|
-
-15. Expand the session to see all the submissions by clicking the **+** symbol to the left of the session ID.  
-
-.. note :: You session ID will not match the one displayed in the screenshot below.
-
-|image27|
-
-16. If the HTTP Connector subsession still exists check off that specific subsession only and click **Kill Selected Sessions**
-
-.. NOTE :: You are doing this to speed up the process and bypass the typical timers associated with HTTP Connector. This will enable you to see HTTP Connector trigger immediately on the next HTTP request sent from the jump box.
-
-|image30|
-
-17. Locate Disable User 2 Powershell script shortcut located on the desktop.  
-
-|image31|
-
-18. Click the **Disable User 2** Powershell script.  A Powershell window will appear disabling the User2 account is Disabled.
-
-|image32|
-
-18. Return to your existing https://basic-iap.acme.com session.
-19. Click on one of the links for the website.  You will receive a **Deny Page**.
+#. You will notice that HTTP Connector received multiple values back in the response and each JSON key was parsed to individual subsession variables. 
+#. userAccountControl is currently set to **66048**.  Which mean the account is enabled and the password never expires.
 
 
-|image33|
+   |image29|
 
-20.  If you return to the subsession variables screen in BIG-IP you will see the session returned is **66050**.
+#. Click **Cancel**
 
-|image34|
+#. Expand the session to see all the submissions by clicking the **+ (Plus Symbol)** to the left of the session ID.  
+
+   .. note :: You session ID will not match the one displayed in the screenshot below.
+
+   |image27|
+
+#. If the HTTP Connector subsession still exists check off that specific subsession only and click **Kill Selected Sessions**
+
+   .. NOTE :: You are doing this to speed up the process and bypass the typical timers 		associated with HTTP Connector. This will enable you to see HTTP Connector trigger 	immediately on the next HTTP request sent from the jump box.
+
+   |image30|
+
+#. Locate Disable User 2 Powershell script shortcut located on the desktop.  
+
+   |image31|
+
+#. Click the **Disable User 2** Powershell script.  A Powershell window will appear disabling the User2 account is Disabled.
+
+   |image32|
+
+#. Return to your existing https://basic-iap.acme.com session.
+#. Click on one of the links for the website.  You will receive a **Deny Page**.
+
+
+   |image33|
+
+#. If you return to the subsession variables screen in BIG-IP you will see UserAccountControl was **66050**.
+
+   |image34|
 
 
 
@@ -91,6 +93,7 @@ Task – Access basic-iap.acme.com
 .. |image27| image:: /_static/class1/module3/image027.png
 .. |image28| image:: /_static/class1/module3/image028.png
 .. |image29| image:: /_static/class1/module3/image029.png
+	:width: 1000px
 .. |image30| image:: /_static/class1/module3/image030.png
 .. |image31| image:: /_static/class1/module3/image031.png
 .. |image32| image:: /_static/class1/module3/image032.png

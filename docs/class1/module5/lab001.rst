@@ -9,29 +9,29 @@ Task – Explore the configuration file setting
 
 .. note :: Additional settings can be configured in the XML file beyond this example.  For further information see the article **Configuring F5 AccessGuard** on askf5.com - https://techdocs.f5.com/en-us/bigip-15-0-0/big-ip-access-policy-manager-access-guard-config/configuring-f5-access-guard.html
 
-1. Open the F5 Access Guard Config file shortcut located on the desktop by right clicking it and opening with notepad++
+#. Open the F5 Access Guard Config file shortcut located on the desktop by right clicking it and opening with notepad++
 
-.. note :: The file is located in the C:\\ProgramData\\F5 Networks\\F5AccessGuardService directory
+   .. note :: The file is located in the C:\\ProgramData\\F5 Networks\\F5AccessGuardService directory
 
-|image0|
+   |image0|
 
-2. The Update section contains Software check library auto-update URI. The value specifies the location for software check (OesisInspector.cab) updates. 
+#. The Update section contains Software check library auto-update URI. The value specifies the location for software check (OesisInspector.cab) updates. 
 
-|image1|
+   |image1|
 
-3.The signing section contains the location, cert name, and Issuer Name, of the certificate/key pair used to sign the posture assessment data and 
+#. The signing section contains the location, cert name, and Issuer Name, of the certificate/key pair used to sign the posture assessment data and 
 
-|image2|
+   |image2|
 
-4. The Config section contain how often posture data is collect and signed.   Also the Match patterns for URLs to which the health information would be sent via the HTTP header. This prevents AccessGuard from leaking client configuration data to an untrusted server.
+#. The Config section contain how often posture data is collect and signed.   Also the Match patterns for URLs to which the health information would be sent via the HTTP header. This prevents AccessGuard from leaking client configuration data to an untrusted server.
 
-|image3|
+   |image3|
 
-5. The Checks section contains the check F5 AccessGuard Service will report on.  As of 15.1 there are currently 10 different checks that can be performed.
+#. The Checks section contains the check F5 AccessGuard Service will report on.  As of 15.1 there are currently 10 different checks that can be performed.
 
-|image4|
+   |image4|
 
-6. Close the configuration file without saving
+#. Close the configuration file without saving
 
 
 .. |image0| image:: /_static/class1/module5/image000.png

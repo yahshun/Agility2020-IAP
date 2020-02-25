@@ -9,19 +9,19 @@ Task – Customize the Remediation Page URL
 The default **remediation Page** URL uses the hostname site request.com.  This should be changed to something useful for users in the event they need to download and install the EPI update.
 
 
-|image29|
+   |image29|
 
+#. Enter the URL **https://iap1.acme.com/epi/downloads**
 
+   |image30|
 
-1. Enter the URL **https://iap1.acme.com/epi/downloads**
+#. Click **Save & Next**
 
-|image30|
-
-2. Click **Save & Next**
-
-3. On the Logon Protection menu, Click **Save & Next**
+#. On the Logon Protection menu, Click **Save & Next**
 
 .. |image29| image:: /_static/class1/module1/image029.png
+	:width: 1000px
 .. |image30| image:: /_static/class1/module1/image030.png
+	:width: 1000px
 
 

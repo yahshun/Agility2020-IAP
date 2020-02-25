@@ -6,36 +6,37 @@ In this section you will configure two application groups to enforce different p
 Task – Create adauth_header Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Click **Application Groups** from the ribbon.
+#. Click **Application Groups** from the ribbon.
 
-|image15|
+   |image15|
 
-2. Check **Enable Application Groups**
-
-|image16|
-
-3. Enter Name **adauth_header-iap.acme.com**
-4. Under Applications List, select **/** and click the arrow to move it into the Selected box
-5. Click **Save** 
+#. Check **Enable Application Groups**
  
-|image17|
+  |image16|
+
+#. Enter Name **adauth_header-iap.acme.com**
+#. Under Applications List, select **/** and click the arrow to move it into the Selected box
+#. Click **Save** 
+ 
+   |image17|
 
 Task – Create ocspauth_header Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-6. Click **Add** to create a second application group
+#. Click **Add** to create a second application group
 
-|image18|
+   |image18|
 
-7. Enter Name **ocspauth_header-iap.acme.com**
-8. Under Applications List, select **/admin.php** and click the arrow to move it into the Selected box
-9. Click **Save** 
+#. Enter Name **ocspauth_header-iap.acme.com**
+#. Under Applications List, select **/admin.php** and click the arrow to move it into the Selected box
+#. Click **Save** 
 
-|image19|
+   |image19|
  
-10. Verify both applications groups have been created.
+#. Verify both applications groups have been created.
+#. Click **Save & Next**
 
-|image20|
+   |image20|
 
 
 
