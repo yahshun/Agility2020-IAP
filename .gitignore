@@ -2,3 +2,5 @@ docs/_build/*
 media
 *.docx
 pdf/*
+.DS_Store
+.vscode

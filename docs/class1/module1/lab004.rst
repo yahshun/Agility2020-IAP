@@ -1,18 +1,34 @@
-Lab – User Identity
+Lab 1.4 - User Identity
 ------------------------------------------------
 
 In this section you will configure a single User Identity using Active Directory.  
 
-Task – Configure Active Directory AAA
+Task - Configure Active Directory AAA
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Enter **"ad"** for the name
+<<<<<<< HEAD
 #. Ensure the Authentication Type is **AAA**
 #. Ensure the Choose Authentication Server Type is set to **Active Directory**
 #. Select **prebuilt-ad-servers** from the Choose Authentication Server dropdown box
 #. Check **Active Directory Query Properties**
 #. Select the **memberOf** in the Required Attributes box 
 #. Click **Save**
+=======
+
+#. Ensure the Authentication Type is **AAA**
+
+#. Ensure the Choose Authentication Server Type is set to **Active Directory**
+
+#. Select **prebuilt-ad-servers** from the Choose Authentication Server dropdown box
+
+#. Check **Active Directory Query Properties**
+
+#. Select the **memberOf** in the Required Attributes box 
+
+#. Click **Save**
+
+>>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. Click **Save & Next**
 
 |image11|

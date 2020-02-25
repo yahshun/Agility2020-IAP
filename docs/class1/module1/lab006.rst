@@ -1,9 +1,9 @@
-Lab – SSO & HTTP Header
+Lab 1.6 - SSO & HTTP Header
 ------------------------------------------------
 
-In this section you will configure HTTP Basic SSO.
+In this section, you will configure HTTP Basic SSO.
 
-Task – Create a HTTP basic SSO object
+Task - Create a HTTP basic SSO object
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -12,19 +12,35 @@ Task – Create a HTTP basic SSO object
    |image18|
 
 #. Enter the name **basic_sso**
+<<<<<<< HEAD
 #. Verify **HTTP Basic** is selected
+=======
+
+#. Verify **HTTP Basic** is selected
+
+>>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. Select **Create New** from the SSO Configuration Object dropdown box
 
    |image19|
 
 #. Verify the Username Source is **session.sso.token.last.username**
+<<<<<<< HEAD
 #. Verify the Password Source is **session.sso.token.last.password**
+=======
+
+#. Verify the Password Source is **session.sso.token.last.password**
+
+>>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. Click **Save**
 
    |image20|
 
 
 #. Verify the **basic_sso** object was created
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. click **Save & Next**
 
    |image21|

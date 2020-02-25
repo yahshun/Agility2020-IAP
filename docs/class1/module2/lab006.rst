@@ -1,30 +1,46 @@
-Lab – Contextual Access
+Lab 2.6 - Contextual Access
 ------------------------------------------------
 
 In this section you will configure Contextual Access for the previously created Application Groups
 
 
-Task – Configure Contextual Access for adauth_header Group
+Task - Configure Contextual Access for adauth_header Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Click **Contextual Access** from the ribbon
 
    |image21|
 
+<<<<<<< HEAD
 #. Click **Add**
+=======
+#.Click **Add**
+>>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 
    |image22|
 
 #. Enter Name **ad-header-iap.acme.com**
+<<<<<<< HEAD
 #. Select **Application Group** from the Resource Type dropdown
 #. Select **adauth_header-iap.acme.com** from the Resource dropdown
 #. Select **ad** from the Primary Authentication dropdown
 #. Select **header_sso** from the HTTP_Header dropdown
+=======
+
+#. Select **Application Group** from the Resource Type dropdown
+
+#. Select **adauth_header-iap.acme.com** from the Resource dropdown
+
+#. Select **ad** from the Primary Authentication dropdown
+
+#. Select **header_sso** from the HTTP_Header dropdown
+
+>>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. Click **Save**
 
    |image23|
 
-Task – Configure Contextual Access for ocspauth_header Group
+Task - Configure Contextual Access for ocspauth_header Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Click **Add**
@@ -32,10 +48,22 @@ Task – Configure Contextual Access for ocspauth_header Group
    |image24|
 
 #. Enter Name **ocsp-header-iap.acme.com**
+<<<<<<< HEAD
 #. Select **Application Group** from the Resource Type dropdown
 #. Select **ocspauth_header-iap.acme.com** from the Resource dropdown
 #. Select **ad** from the Primary Authentication dropdown
 #. Select **header_sso** from the HTTP_Header dropdown
+=======
+
+#. Select **Application Group** from the Resource Type dropdown
+
+#. Select **ocspauth_header-iap.acme.com** from the Resource dropdown
+
+#. Select **ad** from the Primary Authentication dropdown
+
+#. Select **header_sso** from the HTTP_Header dropdown
+
+>>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. Check **Enable Additional Checks**
 
    |image25|
@@ -45,15 +73,34 @@ Task – Configure Contextual Access for ocspauth_header Group
    |image26|
 
 #. Enter Name **ad-webadmin-group-check**
+<<<<<<< HEAD
 #. Check **User Group Check**
 #. Locate the **Website Admin** group **Note** Try using the filter field to search
+=======
+
+#. Check **User Group Check**
+
+#. Locate the **Website Admin** group
+
+.. tip::
+   Try using the filter field to search
+
+>>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. Click **Add** under the Action column
 
    |image28|
 
 #. Select **Step Up** from the Match Action dropdown
+<<<<<<< HEAD
 #. Select **ocsp** from the Step Up Authentication dropdown
 #. Click **Save**
+=======
+
+#. Select **ocsp** from the Step Up Authentication dropdown
+
+#. Click **Save**
+
+>>>>>>> 5256a585ba9f8c92a3b6f3c0c89bf7a471d9a78d
 #. Click **Save** again to save the Contextual Access Properties for ocsp-header-iap.acme.com
 
    |image29|
@@ -72,4 +119,3 @@ Task – Configure Contextual Access for ocspauth_header Group
 .. |image27| image:: /_static/class1/module2/image027.png
 .. |image28| image:: /_static/class1/module2/image028.png
 .. |image29| image:: /_static/class1/module2/image029.png
-

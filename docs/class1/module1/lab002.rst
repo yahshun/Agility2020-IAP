@@ -1,9 +1,9 @@
-Lab – Device Posture 
+Lab 1.2 - Device Posture 
 ------------------------------------------------
 
 In this section, you will configure the IAP to perform posture assessment from client devices.  
 
-Task – Configure name of IAP Policy and enable Posture Checks
+Task - Configure name of IAP Policy and enable Posture Checks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Define the configuration name **IAP_DEMO**
@@ -16,7 +16,7 @@ Task – Configure name of IAP Policy and enable Posture Checks
 
    |image5|
 
-Task – Define a firewall Posture Assessment
+Task - Define a firewall Posture Assessment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Define the Posture Group Name **FW_CHECK**
@@ -28,7 +28,7 @@ Task – Define a firewall Posture Assessment
    |image6|
 
 
-Task – Verify the posture assessment 
+Task - Verify the posture assessment 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. The Posture Settings box should contain **FW_CHECK**

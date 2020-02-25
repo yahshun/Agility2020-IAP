@@ -1,9 +1,9 @@
-Lab – System Service
+Lab 4.2 - System Service
 -----------------------------------
 
 The AccessGuard System Service performs the continuous monitoring of the system based on the parameters in the previously explored F5AccessGuardServiceConfig.xml file
 
-Task – Locate the F5 Access Guard Service
+Task - Locate the F5 Access Guard Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Enter Services into the jump box's desktop search bar.
@@ -18,5 +18,4 @@ Task – Locate the F5 Access Guard Service
 
 .. |image5| image:: /_static/class1/module5/image005.png
 .. |image6| image:: /_static/class1/module5/image006.png
-
 

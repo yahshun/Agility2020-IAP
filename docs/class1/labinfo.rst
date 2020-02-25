@@ -17,9 +17,9 @@ User: **admin**
 Password: **admin**
 
 .. NOTE::
-	 All work for this lab will be performed exclusively from the Windows
-	 jumphost. No installation or interaction with your local system is
-	 required.
+	All work for this lab will be performed exclusively from the Windows
+	jumphost. No installation or interaction with your local system is
+	required.
 
 Lab Topology
 ~~~~~~~~~~~~
