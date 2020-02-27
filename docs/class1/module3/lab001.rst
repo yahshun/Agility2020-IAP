@@ -1,5 +1,5 @@
-Lab - Create the HTTP Connector Request
----------------------------------------
+Lab 3.1 - Create the HTTP Connector Request
+----------------------------------------------
 
 The HTTP Connector is made up of two parts.  The first part is called the HTTP Connector Transport and it defines settings related to SSL, DNS, timeouts, and payload sizes.  The second part is the HTTP Connector Request which contains specific details such as HTTP Method, URL, message body, and how to handle the HTTP responses.
 
@@ -26,7 +26,7 @@ Task - Create a DNS Resolver
 
    |image4|
 
-#. Enter Name **. (a period)**
+#. Enter **. (a Single dot)** in the **Name** field
 #. Add a Nameserver by entering Address **10.1.20.7** and click **Add**
 #. Click **Finished**
 

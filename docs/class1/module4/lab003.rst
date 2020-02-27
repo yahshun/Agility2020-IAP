@@ -1,4 +1,4 @@
-Lab - Device Certificate
+Lab 4.3 - Device Certificate
 ------------------------------------------------
 
 When the configuration file is set to sign posture data, it uses the specified certificate/key pair in the machines local certifcate store.
@@ -21,7 +21,7 @@ Task - Explore the Device Certificate
 #. Click **OK** and close the Certificate management window 
 
 
-.. |image7| image:: /_static/class1/module5/image007.png
-.. |image8| image:: /_static/class1/module5/image008.png
-.. |image9| image:: /_static/class1/module5/image009.png
+.. |image7| image:: /_static/class1/module4/image007.png
+.. |image8| image:: /_static/class1/module4/image008.png
+.. |image9| image:: /_static/class1/module4/image009.png
 

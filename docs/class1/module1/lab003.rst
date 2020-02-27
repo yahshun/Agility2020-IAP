@@ -1,7 +1,7 @@
-Lab - Virtual Server
+Lab 1.3 - Virtual Server
 ------------------------------------------------
 
-In this section, you will define the virtual server IP address its SSL profile settings 
+In this section, you will define the virtual server IP address and its SSL profile settings 
 
 Task - Create a virtual server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -19,7 +19,7 @@ Task - Create a virtual server
 
    |image9|
 
-#. Select **serverssl** from the Server SSL Profile options
+#. In the **Server SSL Profile** section, move the **serverssl** SSL Profile to the **Selected** side (select item and then click the right-arrow)
 #. Click **Save & Next**
 
    |image10|

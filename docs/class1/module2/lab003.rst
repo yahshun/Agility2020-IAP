@@ -1,4 +1,4 @@
-Lab - SSO & HTTP Header
+Lab 2.3 - SSO & HTTP Header
 ------------------------------------------------
 
 In this section, you will create a custom header value to pass to the web server. 
@@ -16,7 +16,7 @@ Task - Create Custom Header
 
 #. Enter Name **header_sso**
 #. Change radio button for Type to **HTTP Headers**
-#. Add Header Name **userID**
+#. In the **SSO Headers** section, enter **userID** in the Header Name Field
 #. Click **Save**
 
    |image9|

@@ -1,4 +1,4 @@
-Lab - SSO & HTTP Header
+Lab 1.6 - SSO & HTTP Header
 ------------------------------------------------
 
 In this section you will configure HTTP Basic SSO.

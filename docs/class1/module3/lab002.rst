@@ -1,5 +1,5 @@
-Lab - Add HTTP Connector to the IAP Policy
--------------------------------------------
+Lab 3.2 - Add HTTP Connector to the IAP Policy
+--------------------------------------------------
 
 Now that the HTTP Connector Request has been defined you will add it to basic-iap.acme.com application and test.
 
@@ -11,9 +11,6 @@ Task - Add the HTTP Connector Request
    |image12|
 
 #. Click **Guided Configuration**
-
-   |image13|
-
 #. Click **IAP_DEMO** 
 
    |image14|
@@ -40,7 +37,7 @@ Task - Add the HTTP Connector Request
 
    |image18|
 
-#. Change the Match Action field for Default Fallback to **Reject**
+#. Change the **Match Action** field for the **Default Fallback** rule to **Reject**
 #. Click **Save**
 
    |image19|
@@ -55,7 +52,6 @@ Task - Add the HTTP Connector Request
 
 .. |image12| image:: /_static/class1/module3/image012.png
 	:width: 800px
-.. |image13| image:: /_static/class1/module3/image013.png
 .. |image14| image:: /_static/class1/module3/image014.png
 .. |image15| image:: /_static/class1/module3/image015.png
 	:width: 1200px

@@ -1,4 +1,4 @@
-Lab - Applications
+Lab 2.4 - Applications
 ------------------------------------------------
 
 In this section you will define a second application with subpaths.  
@@ -22,7 +22,7 @@ Task - Configure Application header-iap.acme.com
 #. Verify the pool member properties of Port **443** and Protocol **HTTPS**
 #. Click **Save**
 
-	.. note :: Subpaths are used in Application groups to define Contextual access on 	portions of an application separate from the default contextual access Policy.  An 	application and be broken up into multiple applications groups if necessary to 	meet an organizations access control needs.
+	.. note:: Subpaths are used in Application Groups to define contextual access on 	portions of an application (separate from the default contextual Access Policy).  	If necessary, an application can be split up into multiple Application Groups to 	meet an organization's access control needs.
 
     |image13|
 

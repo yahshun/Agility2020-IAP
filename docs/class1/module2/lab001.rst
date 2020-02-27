@@ -1,5 +1,5 @@
-Lab - Access Guided Configuration
------------------------------------
+Lab 2.1 - Access Guided Configuration
+----------------------------------------
 
 To onboard a new application to the IAP, you will first access the Guided Configuration menu.
 

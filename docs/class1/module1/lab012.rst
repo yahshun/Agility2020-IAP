@@ -1,4 +1,4 @@
-Lab - Testing 
+Lab 1.12 - Testing 
 ------------------------------------------------
 
 In this section you will access the application basic-iap.acme.com and watch how the BIG-IP restricts access when a device fails it's posture assessment.
@@ -6,9 +6,9 @@ In this section you will access the application basic-iap.acme.com and watch how
 Task - Access basic-iap.acme.com
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. NOTE:: Posture Assessments in Per-Request Policy use F5 Access Guard to perform posture assessments prior to accessing an application.  This improves user experience by removing the delay it would previously have taken when doing posture checks.  Secondly this allows posture assessments to happen throughout the life of the session increasing security.
+.. NOTE:: Posture Assessments in a Per-Request Policy use F5 Access Guard(running on clients) to perform posture assessments prior to accessing an application.  This improves the user experience since posture checks do not introduce any delay when accessing the application. This also improves security by allowing posture assessments to occur continuously throughout the life of the session.
 
-#. From the jumpbox, open a new browser tab and Access the site https://basic-iap.acme.co
+#. From the jumpbox, browse to https://basic-iap.acme.com
 #. At the logon page enter the Username:**user1** and Password:**user1**
 #. Click **Logon**
 
@@ -51,15 +51,13 @@ Task - Disable Windows Firewall
 Task - See Deny Page basic-iap.acme.com 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. From the jumpbox, open the Chrome Browser
+#.  From the jumpbox, browse to https://basic-iap.acme.com
 
-#. Access the site https://basic-iap.acme.com
-
-#. You will receive a deny page from the the IAP stating you have failed the network firewall check
+#. You will receive a deny page from the the IAP stating that you have failed the network firewall check
 
    |image40|
 
-#. Close the browser Window to ensure there is not cached data
+#. Close the browser Window to ensure there is no cached data
 
 
 Task - Enable Windows Firewall
