@@ -1,9 +1,9 @@
-Lab – Customization
+Lab - Customization
 ------------------------------------------------
 
 The Customization sections allows an administrator to define the images, colors, and messages that are presented to a a user.
 
-Task – Customize the Remediation Page URL
+Task - Customize the Remediation Page URL
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The default **remediation Page** URL uses the hostname site request.com.  This should be changed to something useful for users in the event they need to download and install the EPI update.

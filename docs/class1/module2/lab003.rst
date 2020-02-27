@@ -1,9 +1,9 @@
-Lab – SSO & HTTP Header
+Lab - SSO & HTTP Header
 ------------------------------------------------
 
 In this section, you will create a custom header value to pass to the web server. 
 
-Task – Create Custom Header
+Task - Create Custom Header
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Click **SSO & HTTP Header** from the Ribbon.

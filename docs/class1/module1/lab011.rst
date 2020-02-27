@@ -1,11 +1,11 @@
-Lab – Summary
+Lab - Summary
 ------------------------------------------------
 
 The Summary page is designed for reviewing the configuration that is about to be deployed.  In the event a change is required anywhere in the configuration the **pencil icon** on the right side can be selected to quickly edit the appropriate section.
 
 
 
-Task – Deploy the configuration 
+Task - Deploy the configuration 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Click **Deploy**

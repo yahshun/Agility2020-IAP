@@ -1,9 +1,9 @@
-Lab – SSO & HTTP Header
+Lab - SSO & HTTP Header
 ------------------------------------------------
 
 In this section you will configure HTTP Basic SSO.
 
-Task – Create a HTTP basic SSO object
+Task - Create a HTTP basic SSO object
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
