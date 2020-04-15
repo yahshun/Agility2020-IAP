@@ -46,7 +46,7 @@ Task - Login to header-iap.acme.com using user2
 
    |image35|
 
-#. Access the **admin** portion of the website https://header-iap.acme.com/admim.php
+#. Access the **admin** portion of the website https://header-iap.acme.com/admin.php
 #. You receive a **Access Denied** page due to not having the correct group membership
 
    |image36|
